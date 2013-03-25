@@ -1,0 +1,4 @@
+08/01/13
+*Changed bootscript and app to find the scripts in the right location when using opensource app
+04/11/12
+*First release of open source version, featuring all features of play store app version 1.2.1

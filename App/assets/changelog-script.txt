@@ -1,0 +1,25 @@
+27/09/2012
+*Fixed error with script not starting off using the apps busybox which causes errors on devices that dont have another busybox installed
+
+16/08/2012
+*Removed SU check, caused cut error on many devices
+*Added support to create a 1GB SWAP file and use it
+
+11/07/2012
+*Fixed md5 sum file not deleting after checking
+*fixed script not using the busybox built into the new app
+
+11/06/2012
+*Changed the script so it now look for any of our apps and use busybox from there. If none of the apps are found it will use /system/xbin/busybox instead.
+*Changed the shutdown part to use the apps busybox, now it should shutdown for everyone.
+*Now we write hosts and resolv.conf file only once when the image first boots. This allow changes to those files to survive restart of the image.
+*Plus a lot of small changes to support the new config system.
+
+03/05/2012 - Ubuntu v7 script
+*md5 file checking if found in the same directory as the image (md5 file now included in zip of each image file) This can take some time to excute but will make sure the image is not currpt! (will only do it on first use once its checked the md5 file is deleted)
+
+30/04/2012 - Ubuntu v7 script
+*Improved error handling
+
+31/03/2012
+*Includes Debian boot script V1

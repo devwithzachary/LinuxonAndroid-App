@@ -1,0 +1,62 @@
+11/10/2012
+Backtrack
+*Fixed user not being able to use sudo
+*Fixed S and M being used as keyboard short cuts
+*Backtrack 5 wallpaper included again (by popluar demand!)
+*Dare I say it Backtrack should now be completely stable
+
+16/09/2012
+Backtrack
+*Fixed md5 miss match
+
+16/08/2012
+Backtrack
+*fixed "error creating child process for terminal" when launching a terminal in backtrack
+*Now asks for a password for VNC on first start up
+*Removed some typoes in the script
+
+ArchLinux
+Core
+*Updated to beta
+*Internet working
+*All updates and fully working pacman
+
+Small
+*All changes from Core included
+*'Mostly' working vnc GUI
+*LXDE Desktop included
+*2GB file size
+*Known Issues - LXDE dosnt render correctly, VNC does not let you change password, password set to 'backtrac'
+
+Large
+*All changes from Core included
+*'Mostly' working vnc GUI
+*KDE Desktop included
+*3.5GB file size
+*Known Issues - KDE# dosnt render correctly, VNC does not let you change password, password set to 'backtrac'
+
+
+04/07/2012
+*Debian and Backtrack images updated to fix user issues
+
+11/06/2012
+*It now asks if you want to start ssh and vnc at first boot and let you save the choices. (The complete installer app can change ssh/vnc start choices and change vnc resolution later, the free apps can do it by editing a file)
+*Resolution and other settings are now saved the same place as the image itself so they are easy to edit. The file is called imagename.img.configs
+*The permissions on /sdcard and /external_sd should be fixed now.
+*Now the hosts and resolv.conf files are only written once, so changes the user make will now survive a restart.
+*Plus a lot of changes to support the new config system, to many to mention.
+
+03/05/2012
+*Now boot using a normal user (called ubuntu), on first boot it will ask for you to set your own admin password for using running things as root. (thanks to barryflanagan for this!)
+*Images now once again ask if you wish to save the screen size as default
+*Ubuntu updated to newest updates
+*Images include md5 files to check image
+*+Plus possibly other tweaks I cant remember!
+
+20/04/2012
+*New Ubuntu 12.04 images. Core, small and full all updated to newest updates from ubuntus main stream
+*Full image now include Unity desktop
+*Firefox now working on both small and full images
+
+31/03/2012
+*Now includes Debian images (core/small/large) V1

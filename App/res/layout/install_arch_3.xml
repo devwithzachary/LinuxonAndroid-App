@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (C) 2012 linuxonandroid.org
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" >
+	<LinearLayout android:id="@+id/TitleLayout" style="@style/TitleBar" >
+		<ImageButton android:src="@drawable/title_home" android:onClick="onClickHome" android:contentDescription="@string/content_Description_home" style="@style/TitleBarAction" />
+		<ImageView style="@style/TitleBarSeparator" android:contentDescription="@string/content_Description_dummy"/>
+		<TextView style="@style/TitleBarText" />
+		<ImageButton android:src="@drawable/title_about" android:onClick="onClickAbout" android:contentDescription="@string/content_Description_about" style="@style/TitleBarAction" />
+		<ImageButton android:src="@drawable/title_news" android:onClick="onClickSearch" android:contentDescription="@string/content_Description_search" style="@style/TitleBarAction" />
+	</LinearLayout>
+
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/ScrollLayout" android:layout_width="fill_parent" android:layout_height="0dip" android:layout_above="@id/btn_Back" android:layout_below="@id/TitleLayout" >
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+			<TextView android:text="@string/arch_install_page3" android:layout_width="wrap_content"  android:layout_height="wrap_content"  />
+		</LinearLayout>
+	</ScrollView>
+
+	<Button	android:id="@+id/btn_Back" android:layout_marginBottom="5dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:text="@string/button_back" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	<Button android:id="@+id/btn_Next" android:layout_marginBottom="5dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:text="@string/button_next" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+	<ImageButton
+	    android:id="@+id/btn_donationad"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:src="@drawable/donationad" />
+
+</RelativeLayout>

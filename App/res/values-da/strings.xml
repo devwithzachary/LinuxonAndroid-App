@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Danish language file, translated by Martin Møller (tuxling) -->
+
+<!--
+The lines in this file all look like this:
+
+	<string name="button_back">Back</string>
+
+The only part of that line you have to translate is the word 'Back' (Not the button_back part)
+It's very important that the rest of the line is unchaged.
+
+The correct Danish translation of the above line would look like:
+	<string name="button_back">Tilbage</string>
+
+If you need the ' character you have to write \' for it to work.
+\n is making a new line, so \n\n create a blank line
+
+Remember to change the top comment to the language you translated to and your name.
+And fell free to remove these instructions after you read them.
+
+Thanks for your help, zacthespack & tuxling.
+-->
+
+<resources>
+	<string name="hello">Vælg en af de følgende muligheder.</string>
+	<string name="app_name">Complete Linux Installer</string>
+
+	<!-- Strings used more than one place -->
+	<string name="title_about">Om</string>
+	<string name="title_home">Hjem</string>
+	<string name="title_search">Søg</string>
+
+	<string name="button_back">Tilbage</string>
+	<string name="button_next">Næste</string>
+	<string name="button_finished">Slut</string>
+
+	<string name="download_VNC">Download/Installer VNCViewer App</string>
+	<string name="download_Term">Download/Installer Terminal App</string>
+	<string name="download_sourceforge">Download fra sourceforge</string>
+	<string name="download_Torrent">Download torrent fil</string>
+
+	<string name="install_apps_text">Mens du henter dit image kan du downloade og installere terminal og vncviewer hvis de ikke allerede er installerede.</string>
+	<string name="after_install_text">Tryk på \'Næste\' når du har hentet image filen og er sikker på begge apps er installeret.</string>
+
+	<!-- Front page buttons -->
+	<string name="frontpage_btn_InstallGuides">Installations Guider</string>
+	<string name="frontpage_btn_BuildGuides">Bygge Guider</string>
+	<string name="frontpage_btn_Tips">Tips</string>
+	<string name="frontpage_btn_FAQ">Spørgsmål</string>
+	<string name="frontpage_btn_Changelog">Ændringer</string>
+	<string name="frontpage_btn_Launch">Starter</string>
+
+	<!-- Strings used on the install guides main menu -->
+	<string name="installGuide_Menu_Intro">Her finder du guider til at installere forskellige linux distributioner.</string>
+	<string name="installGuide_Menu_Ubuntu10">Ubuntu 10 Installations Guide</string>
+	<string name="installGuide_Menu_Ubuntu12">Ubuntu 12 Installations Guide</string>
+	<string name="installGuide_Menu_Backtrack">Backtrack Installations Guide</string>
+	<string name="installGuide_Menu_Debian">Debian Installations Guide</string>
+
+	<!-- Strings for ubuntu 10 install guide -->
+	<string name="ubuntu10_download_Script">Download Boot Script</string>
+	<string name="ubuntu10_download_menu_button">Download Ubuntu Image</string>
+	<string name="ubuntu10_download_Large">Download Large Ubuntu Image</string>
+	<string name="ubuntu10_download_Small">Download Small Ubuntu Image</string>
+
+	<string name="ubuntu10_install_page1">Før vi går videre er det vigtigt at du har Root og har installeret en kerne der understøtter loop devices. Det virker bedst med \"light\" rommer der efterlader mest mulig ram fri til Ubuntu.\n\nDu skal også sikre at debugging er slået til, gå til Indstillinger->Programmer->Udvikling og sikrer at USB-Fejlsøgning er aktiveret.\n\nDu skal også have mindst 3.5GB ledig på dit SD kort til det store image eller 2.5GB for det lille image.\n\nHvis du opfylder de ovenstående krav skal du trykke næste, hvis du ikke opfylder alle krav vil Ubuntu IKKE virke på din enhed!</string>
+	<string name="ubuntu10_install_page2">Først skal vi downloade et Ubuntu image. Der er forskellige størrelser at vælge imellem, stor har en masse gode for-installerede programmer, den lille har ikke nær så mange programmer men er meget hurtigere at downloade.</string>
+	<string name="ubuntu10_install_page3">Når din download er færdig skal du udpake zip filen i din favorit fil manager, pak filerne ud i en mappe kaldet ubuntu i roden af dit sd kort. (Der skal være to filer, ubuntu.img og ubuntu.img.md5)\n\nDu er nu klar til at starte Ubuntu, det kan du gøre fra Starteren på forsiden eller ved at placere et widget på din start skærm.\n\nDu vil blive spurgt om skærm opløsning osv når du starter Ubuntu første gang, det er vigtigt du skriver feks 800x450 med lille x.\n\nEfter kort tid får du beskeden:\n\nroot@localhost:/#\n\nDet betyder at Ubuntu er startet og kører som det skal. Får du ikke den besket så kontroller at du har root og din kerne understøtter loop back, hvis du stadig har proglemer så kig i \'Spørgsmål\' på forsiden.</string>
+	<string name="ubuntu10_install_page4">Terminalen vil nu virke som en Ubuntu kommando linie, for at forbinde til Ubuntu skrivebordet skal du starte dit VNC viewer app.\n\nSæt din IP addresse til \'localhost\' port nummer til 5900 og indtast koden ubuntu, tryk på \'connect\' og Ubuntu skrivebordet vil komme frem.\n\nBemærk: Når du er færdig i Ubuntu skal du skrive \'exit\' i terminalen for at afslutte og stoppe Ubuntu korrekt.</string>
+	<string name="ubuntu10_image_description">Det store image er en 1.5GB stor download og fylder 3.5GB når det er pakket ud, det indeholder div programmer fra Python til Open Office. Der er ca 1.5GB ledig til dine egne programmer og data.\n\nDet lille image er en 500MB download og fylder 2.5GB når det er pakket ud, det indeholder kun de mest nødvendige programmer som en web browser og Java. Der er ca 1.5GB ledig til dine egne programmer og data.</string>
+
+	<!-- Strings for ubuntu 12 install guide -->
+	<string name="ubuntu12_download_Script">Download Boot Script</string>
+	<string name="ubuntu12_download_menu_button">Download Ubuntu Image</string>
+	<string name="ubuntu12_download_Large">Download Stort Ubuntu Image</string>
+	<string name="ubuntu12_download_Small">Download Lille Ubuntu Image</string>
+	<string name="ubuntu12_download_Core">Download Grund Ubuntu Image</string>
+
+	<string name="ubuntu12_install_page1">Før vi går videre er det vigtigt at du har Root og har installeret en kerne der understøtter loop devices. Det virker bedst med \"light\" rommer der efterlader mest mulig ram fri til Ubuntu.\n\nDu skal også sikre at debugging er slået til, gå til Indstillinger->Programmer->Udvikling og sikrer at USB-Fejlsøgning er aktiveret.\n\nDu skal også have mindst 3.5GB ledig på dit SD kort til det store image eller 2.5GB for det lille image.\n\nHvis du opfylder de ovenstående krav skal du trykke næste, hvis du ikke opfylder alle krav vil Ubuntu IKKE virke på din enhed!</string>
+	<string name="ubuntu12_install_page2">Først skal vi downloade et Ubuntu image og start script. Der er tre forskellige størrelser at vælge imellem, tryk på et image for at læse mere.</string>
+	<string name="ubuntu12_install_page3">Når din download er færdig skal du udpake zip filen i din favorit fil manager, pak filerne ud i en mappe kaldet ubuntu i roden af dit sd kort. (Der skal være to filer, ubuntu.img og ubuntu.img.md5)\n\nDu er nu klar til at starte Ubuntu, det kan du gøre fra Starteren på forsiden eller ved at placere et widget på din start skærm.\n\nDu vil blive spurgt om skærm opløsning osv når du starter Ubuntu første gang, det er vigtigt du skriver feks 800x450 med lille x.\n\nEfter kort tid får du beskeden:\n\nroot@localhost:/#\n\nDet betyder at Ubuntu er startet og kører som det skal. Får du ikke den besket så kontroller at du har root og din kerne understøtter loop back, hvis du stadig har proglemer så kig i \'Spørgsmål\' på forsiden.</string>
+	<string name="ubuntu12_install_page4">Terminalen vil nu virke som en Ubuntu kommando linie, for at forbinde til Ubuntu skrivebordet skal du starte dit VNC viewer app.\n\nSæt din IP addresse til \'localhost\' port nummer til 5900 og indtast koden ubuntu, tryk på \'connect\' og Ubuntu skrivebordet vil komme frem.\n\nBemærk: Når du er færdig i Ubuntu skal du skrive \'exit\' i terminalen for at afslutte og stoppe Ubuntu korrekt.</string>
+	<string name="ubuntu12_image_description">Grund image er en 200MB download og fylder 750MB udpakket,den har kun det mest grundlæggende for at køre Ubuntu og indeholder ikke et skrivebord, der er ca 400MB ledig plads til programmer og data.\n\nDet lille image er en 400MB download og fylder 2GB udpakket, det har LXDE skrivebordet og de mest benyttede programmer som Firefox og Leafpad, der er ca 1GB ledig.\n\nDet store image er en 1.3GB download og fylder 3.5GB udpakket, det har Unity skrivebordet og en lang række programmer, der er ca 1.1GB ledig.</string>
+
+	<!-- Strings for Backtrack install guide -->
+	<string name="backtrack_download_Script">Download Boot Script</string>
+	<string name="backtrack_download_Image">Download Backtrack Image</string>
+
+	<string name="backtrack_install_page1">Før vi går videre er det vigtigt at du har Root og har installeret en kerne der understøtter loop devices. Det virker bedst med \"light\" rommer der efterlader mest mulig ram fri til Backtrack.\n\n"Du skal også sikre at debugging er slået til, gå til Indstillinger->Programmer->Udvikling og sikrer at USB-Fejlsøgning er aktiveret.\n\nDu skal også have mindst 3.5GB ledig på dit SD kort.\n\nHvis du opfylder de ovenstående krav skal du trykke næste, hvis du ikke opfylder alle krav vil Backtrack IKKE virke på din enhed!</string>
+	<string name="backtrack_install_page2">Først skal du downloade Backtrack image filen.</string>
+	<string name="backtrack_install_page3">Når din download er færdig skal du udpakke begge zip filer i din favorit fil manager, pak filerne ud i en mappe kaldet backtrack i roden af dit sd kort.(Der skal være to filer, backtrack.img og backtrack.img.md5)\n\nDu er nu klar til at starte Backtrack, det kan du gøre fra Starteren på forsiden eller ved at placere et widget til din start skærm.\n\nDu vil blive spurgt om skærm opløsning osv når du starter Backtrack første gang, det er vigtigt du skriver feks 800x450 med lille x.\n\nNår du får beskeden:\n\nroot@localhost:/#\n\nEr du klar og kan trykke på \'næste\' hvis du ikke får den besked skal du sikre du har root og din kerne understøtter loop devices, hvis du stadig har proglemer så kig i \'Spørgsmål\' på forsiden.</string>
+	<string name="backtrack_install_page4">Terminalen vil nu virke som en Backtrack kommando linie, for at forbinde til Backtrack skrivebordet skal du starte dit VNC viewer app.\n\nSæt din IP addresse til \'localhost\' port nummer til 5900 og indtast koden Backtrack, tryk på \'connect\' og Backtrack skrivebordet vil komme frem.\n\nBemærk: Når du er færdig i Backtrack skal du skrive \'exit\' i terminalen for at afslutte og stoppe Backtrack korrekt.</string>
+
+	<!-- Strings for Debian install guide -->
+	<string name="debian_download_Script">Download Boot Script</string>
+	<string name="debian_download_menu_button">Download Debian Image</string>
+	<string name="debian_download_Large">Download Stor Image</string>
+	<string name="debian_download_Small">Download Lille Image</string>
+	<string name="debian_download_Core">Download Grund Image</string>
+
+	<string name="debian_install_page1">Før vi går videre er det vigtigt at du har Root og har installeret en kerne der understøtter loop devices. Det virker bedst med \"light\" rommer der efterlader mest mulig ram fri til Debian.\n\n"Du skal også sikre at debugging er slået til, gå til Indstillinger->Programmer->Udvikling og sikrer at USB-Fejlsøgning er aktiveret.\n\nDu skal også have mindst 3.5GB ledig på dit SD kort til det store image, 2GB til det lille og 750MB for det mindste grund image.\n\nHvis du opfylder de ovenstående krav skal du trykke næste, hvis du ikke opfylder alle krav vil Debian IKKE virke på din enhed!</string>	
+	<string name="debian_install_page2">Først skal du downloade et Debian image.</string>
+	<string name="debian_install_page3">Når din download er færdig skal du udpakke begge zip filer i din favorit fil manager, pak filerne ud i en mappe kaldet debian i roden af dit sd kort. (Der skal være to filer, debian.img og debian.img.md5)\n\nDu er nu klar til at starte Debian, det kan du gøre fra Starteren på forsiden eller ved at placere et widget til din start skærm.\n\nDu vil blive spurgt om skærm opløsning osv når du starter Debian første gang, det er vigtigt du skriver feks 800x450 med lille x.\n\nNår du får beskeden:\n\nroot@localhost:/#\n\nEr du klar og kan trykke på \'næste\' hvis du ikke får den besked skal du sikre du har root og din kerne understøtter loop devices, hvis du stadig har proglemer så kig i \'Spørgsmål\' på forsiden.</string>
+	<string name="debian_install_page4">Terminalen vil nu virke som en Debian kommando linie, for at forbinde til Debian skrivebordet skal du starte dit VNC viewer app.\n\nSæt din IP addresse til \'localhost\' port nummer til 5900 og indtast koden Debian, tryk på \'connect\' og Debian skrivebordet vil komme frem.\n\nBemærk: Når du er færdig i Debian skal du skrive \'exit\' i terminalen for at afslutte og stoppe Debian korrekt.</string>
+	<string name="debian_image_description">Der er tre image størrelser at vælge mellem, Grund, Lille og Stor.\n\nDet mindste grund image er en 200MB download der fylder 750MB udpakket, det indeholder kun en grundlæggende Debian uden skrivebord.\n\nDet lille image er en 600MB download der fylder 2GB udpakket, det har XFCE skrivebordet og de grundlæggende programmer.\n\nDet store image er en 1GB download der fylder 3.5GB udpakket, det har XFCE skrivebordet og et bredt udvalg af programmer incl Open Office</string>
+
+	<!-- Strings used in the download type selector dialog -->
+	<string name="dialog_select_donwload_type_title">Vælg download type</string>
+	<string name="dialog_select_donwload_type_description">Vælg den type download du ønsker, du kan hente en torrent fil eller fra sourceforge.</string>
+	<string name="dialog_button_torrent">Torrent Fil</string>
+	<string name="dialog_button_sourceforge">Fra Sourceforge</string>
+	<string name="dialog_button_cancel_download">Annuler Download</string>
+
+	<!-- Strings for the build guides -->
+	<string name="buildGuides_Intro">Dette er guider til at lave dit eget Linux image.\n\nDe forskellige Linux versioner kræver forskellige guider, lige nu er der kun en Ubuntu guide men flere vil komme.\n\nDe er desværre ikke oversat til dansk endnu, det håber jeg at få tid til snart.</string>
+	<string name="btn_BuildGuide_Ubuntu">Ubuntu Build Guide</string>
+
+	<!-- Strings for the tips -->
+	<string name="tips_text">Finder du Linux meget langsom?\n\nFordi Linux kører oven på Android kan det være meget langsomt, for at reducere det kan du prøve ting som at overclocke din CPU (På eget ansvar!) eller muligvis prøve en rom der efterlader flere resourcer ledig til Linux. (feks en AOSP ROM, altså en ren google ROM)</string>
+
+	<!-- Strings used for the changelog -->
+	<string name="changelog_intro">Listen over ændringer er delt i tre for at gøre det lettere at finde ud af hvad der er ændret\n\nListerne med ændringer er desværre på engelsk.</string>
+	<string name="changelog_button_applog">App Ændringer</string>
+	<string name="changelog_button_imagelog">Image Ændringer</string>
+	<string name="changelog_button_scriptlog">Script Ændringer</string>
+
+	<!-- Strings for the FAQ -->
+	<string name="FAQ_intro">Hvad er Ubuntu/Backtrack/Debian?\n\nUbuntu/Backtrack/Debian er Linux baserede operativ systemer der normalt er forbeholdt computere, men denne version er specielt lavet til at køre på din Android enhed, det giver dig muligheden for at installere næsten alle Linux programmer og køre dem på din telefon eller tablet.\n\nKan jeg opgradere Ubuntu/Backtrack/Debian som på min PC?\n\nNEJ! Hvis du opdaterer systemet vil dit image ikke virke længere, men du kan opdatere programmer og pakker\n\nBedste indstillinger for Android VNC Viewer?\n\nFuld 24-bit colour virker rigtig godt og der er ingen grund til at sætte det lavere. Input Mode er bedst sat til \'touchpad\' da skrivebordet ikke er ret touch screen venligt når det er så lille! Bruger du touchpad vil skærmen virke som en touch pad på en bærbar computer.\n\nUbuntu/Backtrack/Debian kan ikke installeres\n\nHvis Ubuntu/Backtrack/Debian ikke kan installeres så kig på listen over enheder/kerner/android versioner der virker eller ikke virker ved at trykke på knappen herunder, hvis din enhed ikke er på listen kan du sende mig en email og oplyse Android model, Android version og kerne og jeg vil kontakte dig hurtigst muligt. (Email skal være på engelsk)</string>
+	<string name="FAQ_WorkingDevices">Enheder der virker/ikke virker</string>
+	<string name="FAQ_WhatCanIDo">Hvad kan jeg gøre med Ubuntu/Backtrack/Debian?\n\nDe store image filer har en lang række programmer som Open Office, Firefox og mange andre så din telefon eller tablet i mange tilfælde helt kan erstatte en alm computer. Ud over de inkluderede programmer kan alle Linux programmer der har en ARM udgave installeres.</string>
+
+	<!-- The about text -->
+	<string name="about_intro">Dette projekt startede med at få Ubuntu til at køre på min Desire S og har vokset lige siden!\n\nNu er målet at gøre det så let som muligt at installere Linux på Android.\n\nFolkene bag:\nZachary Powell (zacthespack)\nMartin Møller (tuxling)\n\nOversættere:\nEngelsk - Zachary Powell (zacthespack)\nDansk - Martin Møller (tuxling)</string>
+
+	<!-- The search text -->
+	<string name="search_intro">Denne funktion vil gøre det muligt at søge om din enhed kan køre Ubuntu, men data basen er ikke på plads endnu så derfor er funktionen slået fra!</string>
+
+	<!-- Strings for the launcher -->
+	<string name="Launcher_Intro">Dette er Linux starteren. Du kan redigere profilerne ved at trykke på \'menu\'.\nDu kan så starte Linux ved at her eller oprette en widget på start skærmen. (Widget vil spørge hvor image filen er placeret første gang du bruger det)</string>
+	<string name="Launcher_Intro_Warning">Advarsel! Det image der er sat i denne profil findes ikke, tryk \'menu\' for at redigere denne profil.</string>
+	<string name="toast_warning_image_not_found">Advarsel! Image filen i denne profil findes ikke!</string>
+
+	<string name="toolbox_TitleText">Vælg en Linux distribution for at starte den eller ændre indstillinger..</string>
+	<string name="button_Configure">Indstillinger</string>
+	<string name="button_StartLinux">Start Linux</string>
+
+	<string name="menu_AddDistro">Ny Profil</string>
+	<string name="menu_DeleteDistro">Slet Profil</string>
+	<string name="menu_EditDistro">Rediger Profil</string>
+	<string name="menu_OpenFolder">Åben Mappe</string>
+	<string name="hint_EnterName">Skriv navn her</string>
+	<string name="inputLabel_Name">Navn</string>
+
+	<!-- Config editor strings -->
+	<string name="title_ConfigureLinux">Indstillinger</string>
+	<string name="Config_intro">Dette er indstillingerne, her kan du ændre hvordan dit image skal starte og div andre indstillinger.</string>
+	<string name="config_button_mounts">Indstil Delte Mapper</string>
+	<string name="launcher_Label_ImageName">Image</string>
+
+	<string name="check_box_start_vnc">Start VNC Server</string>
+	<string name="check_box_start_ssh">Start SSH Server</string>
+	<string name="config_screen_width">Skærm Brede</string>
+	<string name="config_screen_height">Skærm Højde</string>
+
+	<string name="title_ConfigureMounts">Delte Mapper</string>
+
+	<string name="button_SaveAndExit">Gem Ændringer</string>
+	<string name="button_mounts_back">Tilbage</string>
+	<string name="button_mounts_abort_changes">Annuler Ændringer</string>
+
+	<string name="configure_Mounts_Intro">Herunder kan du tilføje Android mapper du vil gøre tilgængelige i Linux. Brug menuen til at tilføje en ny mappe, tryk på en mappe for at redigere den og tryk længe på den for at slette den.</string>
+
+	<string name="label_AndroidPath">Android Mappe</string>
+	<string name="label_LinuxPath">Linux Mappe</string>
+
+	<string name="menu_ToggleViewMode">Skift Liste Mode</string>
+	<string name="menu_AddMount">Tilføj Mappe</string>
+
+	<string name="mount_editor_viewmode_android">Viser Android Mapper</string>
+	<string name="mount_editor_viewmode_linux">Viser Linux Mapper</string>
+	<string name="mount_editor_viewmode_both">Viser Begge</string>
+
+	<string name="context_menu_edit">Rediger</string>
+	<string name="context_menu_delete">Slet</string>
+
+	<string name="message_cant_delete_last_profile">Du kan ikke slette den sidste profil!</string>
+
+	<string name="dialog_delete_distro">Er du sikker på du vil slette denne profil?</string>
+	<string name="dialog_delete_mount">Er du sikker på du vil fjerne denne delte mappe?</string>
+
+	<string name="dialog_must_enter_name">Du skal indtaste et navn!</string>
+	<string name="dialog_changes_saved">Ændringer gemt</string>
+	<string name="dialog_added">Tilføjet</string>
+	<string name="dialog_name_already_exist">Navnet er allerede brugt</string>
+
+	<string name="dialog_button_ok">OK</string>
+	<string name="dialog_button_cancel">Annuler</string>
+	<string name="dialog_button_yes">Ja</string>
+	<string name="dialog_button_no">Nej</string>
+
+	<string name="dialog_message_deleted">Slettet</string>
+	<string name="dialog_message_saved">Gemt</string>
+	<string name="dialog_message_aborted">Annuleret</string>
+	<string name="dialog_message_mounts_saved">Delte Mapper Gemt</string>
+	<string name="dialog_message_changes_aborted">Ændringer Annuleret</string>
+
+	<string name="mounts_editor_popup_hint_linux_path">Linux mappe du vil dele som</string>
+	<string name="mounts_editor_popup_hint_android_path">Android mappe des skal deles</string>
+
+
+	<!--Strings for the widgets -->
+	<string name="widget_name_debian">Hurtig start Debian</string>
+	<string name="widget_name_backtrack">Hurtig start Backtrack</string>
+	<string name="widget_name_ubuntu">Hurtig start Ubuntu</string>
+
+	<string name="widget_toast_image_not_found">Kan ikke finde image!</string>
+
+	<string name="cfg_widget_save">Gem</string>
+	<string name="cfg_Label_ImagePath">Image navn med fuld sti</string>
+	<string name="cfg_Label_Path">Sti</string>
+	<string name="cfg_Label_ScriptName">Script Navn</string>
+	<string name="cfg_Label_Description">Indtast det fulde navn på dit Linux image incl den fulde sti herover.\n(Skal kun gøres en gang)</string>
+
+	<!-- These are used as activities titles -->
+	<string name="content_Description_dummy"></string>
+	<string name="content_Description_logo">Complete Linux Installer</string>
+	<string name="content_Description_about">Om</string>
+	<string name="content_Description_home">Hjem</string>
+	<string name="content_Description_search">Søg</string>
+	<string name="content_Description_feature1">Installations Guider</string>
+	<string name="content_Description_feature2">Build Guides</string>
+	<string name="content_Description_feature3">Tips</string>
+	<string name="content_Description_feature4">Spørgsmål</string>
+	<string name="content_Description_feature5">Ændringer</string>
+	<string name="content_Description_feature6">Starter</string>
+	
+	<!-- License checking status messages -->
+    <string name="check_license">Check licens</string>
+    <string name="checking_license">Checker licens</string>
+    <string name="dont_allow">Licens er ikke gyldig!</string>
+    <string name="allow">Licensen er gyldig</string>
+    <string name="application_error">Application error: %1$s</string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="unlicensed_dialog_title">Application ikke licenseret</string>
+    <string name="unlicensed_dialog_body">Dette app har ikke en gyldig licens. En gyldig licens kan købes på google play</string>
+    <string name="unlicensed_dialog_retry_body">Kan ikke checke licensen, kontroller venligst at der er et tilgængeligt netwærk.</string>
+    <string name="buy_button">Køb app</string>
+    <string name="retry_button">Prøv igen</string>
+    <string name="quit_button">Stop</string>
+
+	<!-- Strings not shown to normnal users, don't need to be translated! -->
+	<string name="code_error_text">IF YOU SEE THIS WE MADE AN ERROR IN THE APP, PLEASE LET US KNOW!</string>
+
+	<string name="title_ConfigureAutoRun">Auto Start</string>
+	<string name="menu_AutoRunConfig">Auto Start Indstillinger</string>
+	<string name="autorun_config_intro">Her kan du vælge et linux image der skal starte automatisk samtidig med Android.</string>
+	<string name="autorun_config_checkbox_text">Aktiver auto start</string>
+	<string name="autorun_config_label_text_image">Image Navn</string>
+
+	<!-- Strings added 05/06-2012 -->
+	<string name="title_ScriptUpdater">Opdater Scripts</string>
+	<string name="menu_UpdateScripts">Opdater Scripts</string>
+	<string name="updater_BootIntro">Boot script, dette script bruges af starteren og widgets</string>
+	<string name="updater_AutoBootIntro">Auto boot script, dette script bliver brugt til at starte Linux når android starter</string>
+	<string name="updater_Label_InstalledBoot">Installeret:</string>
+	<string name="updater_Label_OnlineBoot">Nyeste:</string>
+	<string name="updater_Label_InstalledAutoBoot">Installeret:</string>
+	<string name="updater_Label_OnlineAutoBoot">Nyeste:</string>
+	<string name="updater_btn_UpdateBootScript">Opdater Boot Script</string>
+	<string name="updater_btn_UpdateAutoBootScript">Opdater Auto Boot Script</string>
+
+	<!-- Strings added 08/06-2012 -->
+	<string name="launcer_ImageAlreadyMounted">Et andet Linux image er allerede mountet, vil du gå til det nu?</string>
+	<string name="launcer_StartAborted">Ikke startet!</string>
+	<string name="updater_ErrorGettingVersions">Kan ikke downloade script version info, check din internet forbindelse og prøv igen!</string>
+	<string name="updater_ErrorDownloadingFile">Kan ikke downloade filen fra serveren, check din internet forbindelse og prøv igen!</string>
+	<string name="updater_Btn_Ok">OK</string>
+	
+	<!-- Strings added 16/07-2012 -->
+	<string name="installGuide_Menu_ArchLinux">ArchLinux</string>
+	<string name="installGuide_Menu_Fedora">Fedora 17</string>
+	<string name="installGuide_Menu_openSUSE">openSUSE 12</string>
+
+	<string name="comings_soon_text">Denne distro kommer snart!\n\nDem der har en donations nøgle kan teste den først. (Så snart de er stabile vil de også være at finde i det gratis app)</string>
+	<string name="terminal_error">Kan ikke finde terminal appen!\nVær sikker på den er installeret som beskrevet i installations guiden.\n\nHvis den var inkluderet i din ROM er det nødvendigt at fjerne den og installere den nyeste version fra google play!</string>
+	
+    <!--  Strings added 16/08-2012 -->
+    <string name="check_box_swap">Lav 1GB SWAP Fil</string>
+    <string name="beta_text">Denne distro er i BETA test.\n\nFor at få adgang til beta versioner skal du købe en donations nøgle.\n\nSå snart det ikke er i beta længere vil det blive tilgøngeligt for alle.</string>
+
+	
+	<string name="arch_install_page1">Før vi går videre er det vigtigt at du har Root og har installeret en kerne der understøtter loop devices. Det virker bedst med \"light\" rommer der efterlader mest mulig ram fri til Archlinux.\n\n"Du skal også sikre at debugging er slået til, gå til Indstillinger->Programmer->Udvikling og sikrer at USB-Fejlsøgning er aktiveret.\n\nDu skal også have mindst 3.5GB ledig på dit SD kort.\n\nHvis du opfylder de ovenstående krav skal du trykke næste, hvis du ikke opfylder alle krav vil Archlinux IKKE virke på din enhed!</string>
+	<string name="arch_install_page2">Først skal du downloade Archlinux image filen.</string>
+	<string name="arch_install_page3">Når din download er færdig skal du udpakke begge zip filer i din favorit fil manager, pak filerne ud i en mappe kaldet archlinux i roden af dit sd kort.(Der skal være to filer, archlinux.img og archlinux.img.md5)\n\nDu er nu klar til at starte Archlinux, det kan du gøre fra Starteren på forsiden eller ved at placere et widget til din start skærm.\n\nDu vil blive spurgt om skærm opløsning osv når du starter Archlinux første gang, det er vigtigt du skriver feks 800x450 med lille x.\n\nNår du får beskeden:\n\nroot@localhost:/#\n\nEr du klar og kan trykke på \'næste\' hvis du ikke får den besked skal du sikre du har root og din kerne understøtter loop devices, hvis du stadig har proglemer så kig i \'Spørgsmål\' på forsiden.</string>
+	<string name="arch_install_page4">Terminalen vil nu virke som en Archlinux kommando linie, for at forbinde til Archlinux skrivebordet skal du starte dit VNC viewer app.\n\nSæt din IP addresse til \'localhost\' port nummer til 5900 og indtast koden Archlinux, tryk på \'connect\' og Archlinux skrivebordet vil komme frem.\n\nBemærk: Når du er færdig i Archlinux skal du skrive \'exit\' i terminalen for at afslutte og stoppe Archlinux korrekt.</string>
+	<string name="arch_image_description">BEMÆRK: DETTE ER BETA! Se ændrings loggen for kendte problemer.\n\nDer er tre image filer at vælge imellem, grund, lille og stor.\n\nGrund image er en 300MB stor download og fylder 750MB udpakket, den indeholder kun en grundlæggende Archlinux uden skrivebord.\n\nDet lille image er en 300MB download der fylder 2GB udpakket, den indeholder LXDE skrivebord og grundlæggende programmer.\n\nDet store image er en 1.6GB download der fylder 3.5GB udpakket, den indeholder KDE skrivebordet.</string>
+    
+	<!--  Strings added 27/09-2012 -->
+	<string name="menu_reinstallbusybox">Geninstaller Busybox</string>
+
+</resources>

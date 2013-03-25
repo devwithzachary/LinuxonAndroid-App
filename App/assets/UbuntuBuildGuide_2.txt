@@ -1,0 +1,14 @@
+Start by opening up a terminal window.
+
+Now we much make and build the ARM image using the Rootstock command.
+
+The Rootstock program has alot of variables for this guide you will want to type the command as follows:
+
+sudo rootstock --fqdn ubuntu --login ubuntu --password ubuntu --imagesize 4G --seed linux-image-omap,build-essential,mysql-server,tightvncserver,lxde,mysql-server-core-5.1,mysql-server-5.1,libmysqlclient16,mysql-common,mysql-client-core-5.1 
+
+Lets look through each part of this command so you can understand what's going on.
+
+--login and --password, these set the login information for the image, you can use this user to boot without root if you wanted.
+
+--imagesize 4G This sets up the size of the image in GB ie 3.5GB would be 3.5G. 
+--seed This is where you set what packages you wish installed with the image, you will need linux-image-omap and build-essential to have it boot, any other images is up to you (but if you want a UI you will need to install one and a VNC program!)

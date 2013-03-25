@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (C) 2012 linuxonandroid.org
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+
+-->
+<LinearLayout android:orientation="vertical" android:id="@id/db1_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/TitleBar">
+        <ImageView android:src="@drawable/title_logo" android:contentDescription="@string/content_Description_logo" style="@style/TitleBarLogo" />
+
+        <ImageView style="@style/TitleBarSeparator" />
+
+        <TextView style="@style/TitleBarText" />
+        <ImageButton android:src="@drawable/title_about" android:onClick="onClickAbout" android:contentDescription="@string/content_Description_about" style="@style/TitleBarAction" />
+        <ImageButton android:src="@drawable/title_news" android:onClick="onClickSearch" android:contentDescription="@string/content_Description_search" style="@style/TitleBarAction" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+    >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+        >
+
+            <Button android:id="@+id/home_btn_feature1" android:text="@string/frontpage_btn_InstallGuides" android:drawableTop="@drawable/home_button1" android:onClick="onClickFeature" style="@style/HomeButton" />
+            <Button android:id="@+id/home_btn_feature2" android:text="@string/frontpage_btn_BuildGuides" android:drawableTop="@drawable/home_button2" android:onClick="onClickFeature" style="@style/HomeButton" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:id="@+id/home_btn_feature3" android:text="@string/frontpage_btn_Tips" android:drawableTop="@drawable/home_button3" android:onClick="onClickFeature" style="@style/HomeButton" />
+            <Button android:id="@+id/home_btn_feature4" android:text="@string/frontpage_btn_FAQ" android:drawableTop="@drawable/home_button4" android:onClick="onClickFeature" style="@style/HomeButton" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:id="@+id/home_btn_feature5" android:text="@string/frontpage_btn_Changelog" android:drawableTop="@drawable/home_button5" android:onClick="onClickFeature" style="@style/HomeButton" />
+            <Button android:id="@+id/home_btn_feature6" android:text="@string/frontpage_btn_Launch" android:drawableTop="@drawable/home_button6" android:onClick="onClickFeature" style="@style/HomeButton" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

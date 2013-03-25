@@ -1,0 +1,5 @@
+This guide will take you through building your own Ubuntu images, so you can set your own image size, and include different programs etc.
+
+Before you start you need to have a computer running Ubuntu 9.10 or newer (this could be via a virtual machine if you do not have a install already).
+
+Once you have a Ubuntu machine to work in, fire it up and press next.

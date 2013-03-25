@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dutch language file created by Gilles Hartog -->
+
+
+<resources>
+	<string name="hello">Kies één van de onderstaande opties.</string>
+	<string name="app_name">Complete Linux Installer</string>
+
+	<!-- Strings used more than one place -->
+	<string name="title_about">Over</string>
+	<string name="title_home">Home</string>
+	<string name="title_search">Zoeken</string>
+
+	<string name="button_back">Terug</string>
+	<string name="button_next">Volgende</string>
+	<string name="button_finished">Afronden</string>
+
+	<string name="download_VNC">Download/Installeer VNCViewer App</string>
+	<string name="download_Term">Download/Installeer Terminal App</string>
+	<string name="download_sourceforge">Download van sourceforge</string>
+	<string name="download_Torrent">Download torrent bestand</string>
+
+	<string name="install_apps_text">Terwijl de download bezig is, download en installeer dan ondertussen alvast de terminal App en vncviewer App, als je dat nog niet hebt gedaan</string>
+	<string name="after_install_text">Zodra de Linux Image klaar is met downloaden en beide Apps zijn geïnstalleerd klik Volgende</string>
+
+	<!-- Front page buttons -->
+	<string name="frontpage_btn_InstallGuides">Installatie handleidingen</string>
+	<string name="frontpage_btn_BuildGuides">Build handleidingen</string>
+	<string name="frontpage_btn_Tips">Tips</string>
+	<string name="frontpage_btn_FAQ">FAQ</string>
+	<string name="frontpage_btn_Changelog">Change Logs</string>
+	<string name="frontpage_btn_Launch">Opstarten</string>
+
+	<!-- Strings used on the install guides main menu -->
+	<string name="installGuide_Menu_Intro">Dit zijn de installatie handleidingen voor de op dit moment ondersteunde reeks van Linux distributies.</string>
+	<string name="installGuide_Menu_Ubuntu10">Ubuntu 10 installatie handleidingen</string>
+	<string name="installGuide_Menu_Ubuntu12">Ubuntu 12 installatie handleidingen</string>
+	<string name="installGuide_Menu_Backtrack">Backtrack installatie handleidingen</string>
+	<string name="installGuide_Menu_Debian">Debian installatie handleidingen</string>
+
+	<!-- Strings for ubuntu 10 install guide -->
+	<string name="ubuntu10_download_Script">Download opstart Script</string>
+	<string name="ubuntu10_download_menu_button">Download een Ubuntu Image</string>
+	<string name="ubuntu10_download_Large">Download Image (Groot)</string>
+	<string name="ubuntu10_download_Small">Download Image (Klein)</string>
+
+	<string name="ubuntu10_install_page1">Voordat we kunnen beginnen MOET je \'root\' rechten hebben en een kernel die \'loop devices\' ondersteund. Let verder ook op dat als je apparaat weinig RAM geheugen heeft dat het aan te raden is om ook een kleinere versie te kiezen zodat het systeem genoeg geheugen over heeft om soepel te draaien.\n\nZorg tevens dat je debugging mode aan hebt staan. Om dit te controleren ga naar Instellingen->Ontwikkelaarsopties voor nieuwere android versies en voor ouder versies naar Instellingen->Applicatiebeheer->Ontwikkeling en controleer dat het vinkje bij USB-foutopsporing AAN staat.\n\nVerder is het van belang dat voor een grote distributie je minimaal 3,5GB vrije ruimte op je interne opslag of sdcard hebt en minimaal 2,5GB voor de kleine versie\n\nPas als alle voornoemde zaken in orde zijn klik dan op Volgende, zo niet, dan zal de installatie mislukken!</string>
+	<string name="ubuntu10_install_page2">Om te beginnen dient er een Ubuntu Image bestand te worden gedownload. Er zijn verschillende Images beschikbaar: Groot en klein. De grote versie bevat een zware desktop met veel voor-geïnstalleerde programma\'s, de kleine is een lichtgewicht versie die veel sneller is te downloaden.</string>
+	<string name="ubuntu10_install_page3">Maak een folder op je sdkaart of interne opslag en noem die \'ubuntu\'. Pak vervolgens het zip bestand uit met je favoriete file-manager of unzip App en plaats de bestanden in de net aangemaakte folder \'ubuntu\'. (Als het goed is zijn dat twee bestanden: ubuntu.img en ubuntu.img.md5 maar als je enkel ubuntu.img hebt is dat in principe voldoende)\n\nAls dit gedaan is dan kan ubuntu opgestart worden. Dit kan door naar het Opstart menu te gaan, ubuntu te kiezen in de lijst en vervolgens op \'Start linux\' te klikken.\n\nIn het opstart menu is ook de mogelijkheid om bepaalde opstart opties aan te passen.\n\nAls je op \'Start Linux\' hebt geklikt zal er een terminal worden geopend en bij de eerste keer opstarten zal er eenmalig wat instellingsvragen worden gesteld. Het opstarten zal even duren afhankelijk van de snelheid van je apparaat maar is afgerond zodra je de volgende regel ziet staan: \'root@localhost:/#\'.\nAls dit niet gebeurd controleer dan als eerste nogmaals of je wel root rechten hebt op je apparaat en of de kernel (die de fabrikant van jouw apparaat heeft meegeleverd) daadwerkelijk ondersteuning biedt voor loop-devices, als dit niet het probleem is en het onverhoopt toch niet werkt raadpleeg dan de FAQ</string>
+	<string name="ubuntu10_install_page4">De terminal die open staat kan je direct gebruiken als commandline, om de desktop te zien start de \'VNC viewer App\' die je eerder al hebt geïnstalleerd.\nVul bij IP address in:\'localhost\' en bij poort nummer 5900 en bij wachtwoord:\'ubuntu\', klik daarna op verbinden en als alles goed ging zie je de desktop verschijnen.\n\n\nLET OP: om ubuntu af te sluiten tijp dan in de terminal:\'exit\' en druk op enter. Wacht vervolgens tot dat alles netjes is afgesloten.</string>
+	<string name="ubuntu10_image_description">Je kan uit 3 verschillende Images kiezen\n\nDe grote Image is een download van 1,5GB en zal na uitpakken 3,5GB aan ruimte innemen, er zijn vooraf al veel programma\'s beschikbaar van python tot open office. Verder is er 1,5GB aan vrije ruimte om zelf extra programma\'s te installeren.\n\nDe kleine Image is een download van 500MB en zal na uitpakken 2,5GB aan ruimte innemen, enkel de basis programma\'s zullen aanwezig zijn zoals een web browser en Java. Er zal 1,5GB aan ruimte voor je eigen programma\'s zijn.</string>
+
+	<!-- Strings for ubuntu 12 install guide -->
+	<string name="ubuntu12_download_Script">Download opstart Script</string>
+	<string name="ubuntu12_download_menu_button">Download een Ubuntu Image</string>
+	<string name="ubuntu12_download_Large">Download Image (Groot)</string>
+	<string name="ubuntu12_download_Small">Download Image (Klein)</string>
+	<string name="ubuntu12_download_Core">Download Image (Basic)</string>
+
+	<string name="ubuntu12_install_page1">Voordat we kunnen beginnen MOET je \'root\' rechten hebben en een kernel die \'loop devices\' ondersteund. Let verder ook op dat als je apparaat weinig RAM geheugen heeft dat het aan te raden is om ook een kleinere versie te kiezen zodat het systeem genoeg geheugen over heeft om soepel te draaien.\n\nZorg tevens dat je debugging mode aan hebt staan. Om dit te controleren ga naar Instellingen->Ontwikkelaarsopties voor nieuwere android versies en voor ouder versies naar Instellingen->Applicatiebeheer->Ontwikkeling en controleer dat het vinkje bij USB-foutopsporing AAN staat.\n\nVerder is het van belang dat voor een grote distributie je minimaal 3,5GB vrije ruimte op je interne opslag of sdcard hebt en minimaal 2,5GB voor de kleine versie\n\nPas als alle voornoemde zaken in orde zijn klik dan op Volgende, zo niet, dan zal de installatie mislukken!</string>
+	<string name="ubuntu12_install_page2">Om te beginnen dient er een Ubuntu Image bestand te worden gedownload. Er zijn verschillende Images beschikbaar: Groot, klein en basic. Klik op de download knop voor meer informatie.</string>
+	<string name="ubuntu12_install_page3">Maak een folder op je sdkaart of interne opslag en noem die \'ubuntu\'. Pak vervolgens het zip bestand uit met je favoriete file-manager of unzip App en plaats de bestanden in de net aangemaakte folder \'ubuntu\'. (Als het goed is zijn dat twee bestanden: ubuntu.img en ubuntu.img.md5 maar als je enkel ubuntu.img hebt is dat in principe voldoende)\n\nAls dit gedaan is dan kan ubuntu opgestart worden. Dit kan door naar het Opstart menu te gaan, ubuntu te kiezen in de lijst en vervolgens op \'Start linux\' te klikken.\n\nIn het opstart menu is ook de mogelijkheid om bepaalde opstart opties aan te passen.\n\nAls je op \'Start Linux\' hebt geklikt zal er een terminal worden geopend en bij de eerste keer opstarten zal er eenmalig wat instellingsvragen worden gesteld. Het opstarten zal even duren afhankelijk van de snelheid van je apparaat maar is afgerond zodra je de volgende regel ziet staan: \'root@localhost:/#\'.\nAls dit niet gebeurd controleer dan als eerste nogmaals of je wel root rechten hebt op je apparaat en of de kernel (die de fabrikant van jouw apparaat heeft meegeleverd) daadwerkelijk ondersteuning biedt voor loop-devices, als dit niet het probleem is en het onverhoopt toch niet werkt raadpleeg dan de FAQ</string>
+	<string name="ubuntu12_install_page4">De terminal die open staat kan je direct gebruiken als commandline, om de desktop te zien start de \'VNC viewer App\' die je eerder al hebt geïnstalleerd.\nVul bij IP address in:\'localhost\' en bij poort nummer 5900 en bij wachtwoord:\'ubuntu\', klik daarna op verbinden en als alles goed ging zie je de desktop verschijnen.\n\n\nLET OP: om ubuntu af te sluiten tijp dan in de terminal:\'exit\' en druk op enter. Wacht vervolgens tot dat alles netjes is afgesloten.</string>
+	<string name="ubuntu12_image_description">Je kan uit 3 verschillende Images kiezen\n\nDe grote Image is een download van 1,3GB en zal na uitpakken 3,5GB aan ruimte innemen, Hier bij inbegrepen zit onder andere de Unity Desktop en tal van programma\'s. Verder is er 1,1GB aan vrije ruimte om zelf extra programma\'s te installeren.\n\nDe kleine Image is een download van 400MB en zal na uitpakken 2GB aan ruimte innemen. Hier bij inbegrepen zit onder andere de lightweight LXDE Desktop en basis programma\'s zoals Firefox en leavepad en er is ongeveer 1,1GB aan vrije ruimte\n\nDe basic Image is een download van 200MB en zal na uitpakken 750MB aan ruimte innemen. Dit is enkel een commandline versie zonder grafische desktop en heeft ongeveer 400MB aan vrije ruimte.</string>
+
+
+
+
+	<!-- Strings for Backtrack install guide -->
+	<string name="backtrack_download_Script">Download opstart Script</string>
+	<string name="backtrack_download_Image">Download Backtrack Image</string>
+
+	<string name="backtrack_install_page1">Voordat we kunnen beginnen MOET je \'root\' rechten hebben en een kernel die \'loop devices\' ondersteund. Let verder ook op dat als je apparaat weinig RAM geheugen heeft dat het aan te raden is om ook een kleinere versie te kiezen zodat het systeem genoeg geheugen over heeft om soepel te draaien.\n\nZorg tevens dat je debugging mode aan hebt staan. Om dit te controleren ga naar Instellingen->Ontwikkelaarsopties voor nieuwere android versies en voor ouder versies naar Instellingen->Applicatiebeheer->Ontwikkeling en controleer dat het vinkje bij USB-foutopsporing AAN staat.\n\nVerder is het van belang dat voor een grote distributie je minimaal 3,5GB vrije ruimte op je interne opslag of sdcard hebt\n\nPas als alle voornoemde zaken in orde zijn klik dan op Volgende, zo niet, dan zal de installatie mislukken!</string>
+	<string name="backtrack_install_page2">Om te beginnen dient de Backtrack Image te worden gedownload.</string>
+	<string name="backtrack_install_page3">Maak een folder op je sdkaart of interne opslag en noem die \'backtrack\'. Pak vervolgens het zip bestand uit met je favoriete file-manager of unzip App en plaats de bestanden in de net aangemaakte folder \'backtrack\'. (Als het goed is zijn dat twee bestanden: backtrack.img en backtrack.img.md5 maar als je enkel backtrack.img hebt is dat in principe voldoende)\n\nAls dit gedaan is dan kan Backtrack opgestart worden. Dit kan door naar het Opstart menu te gaan, Backtrack te kiezen in de lijst en vervolgens op \'Start linux\' te klikken.\n\nIn het opstart menu is ook de mogelijkheid om bepaalde opstart opties aan te passen.\n\nAls je op \'Start Linux\' hebt geklikt zal er een terminal worden geopend en bij de eerste keer opstarten zal er eenmalig wat instellingsvragen worden gesteld. Het opstarten zal even duren afhankelijk van de snelheid van je apparaat maar is afgerond zodra je de volgende regel ziet staan: \'root@localhost:/#\'.\nAls dit niet gebeurd controleer dan als eerste nogmaals of je wel root rechten hebt op je apparaat en of de kernel (die de fabrikant van jouw apparaat heeft meegeleverd) daadwerkelijk ondersteuning biedt voor loop-devices, als dit niet het probleem is en het onverhoopt toch niet werkt raadpleeg dan de FAQ</string>
+	<string name="backtrack_install_page4">De terminal die open staat kan je direct gebruiken als commandline, om de desktop te zien start de \'VNC viewer App\' die je eerder al hebt geïnstalleerd.\nVul bij IP address in:\'localhost\' en bij poort nummer 5900 en bij wachtwoord:\'backtrac\', klik daarna op verbinden en als alles goed ging zie je de desktop verschijnen.\n\n\nLET OP: om Backtrack af te sluiten tijp dan in de terminal:\'exit\' en druk op enter. Wacht vervolgens tot dat alles netjes is afgesloten.</string>
+
+
+
+
+
+	<!-- Strings for Debian install guide -->
+	<string name="debian_download_Script">Download opstart Script</string>
+	<string name="debian_download_menu_button">Download Image</string>
+	<string name="debian_download_Large">Download Image (Groot)</string>
+	<string name="debian_download_Small">Download Image (Klein)</string>
+	<string name="debian_download_Core">Download Image (Basic)</string>
+
+	<string name="debian_install_page1">Voordat we kunnen beginnen MOET je \'root\' rechten hebben en een kernel die \'loop devices\' ondersteund. Let verder ook op dat als je apparaat weinig RAM geheugen heeft dat het aan te raden is om ook een kleinere versie te kiezen zodat het systeem genoeg geheugen over heeft om soepel te draaien.\n\nZorg tevens dat je debugging mode aan hebt staan. Om dit te controleren ga naar Instellingen->Ontwikkelaarsopties voor nieuwere android versies en voor ouder versies naar Instellingen->Applicatiebeheer->Ontwikkeling en controleer dat het vinkje bij USB-foutopsporing AAN staat.\n\nVerder is het van belang dat voor een grote distributie je minimaal 3,5GB vrije ruimte op je interne opslag of sdcard hebt\n\nPas als alle voornoemde zaken in orde zijn klik dan op Volgende, zo niet, dan zal de installatie mislukken!</string>
+	<string name="debian_install_page2">Om te beginnen dient de Debian Image te worden gedownload.</string>
+	<string name="debian_install_page3">Maak een folder op je sdkaart of interne opslag en noem die \'debian\'. Pak vervolgens het zip bestand uit met je favoriete file-manager of unzip App en plaats de bestanden in de net aangemaakte folder \'debian\'. (Als het goed is zijn dat twee bestanden: debian.img en debian.img.md5 maar als je enkel debian.img hebt is dat in principe voldoende)\n\nAls dit gedaan is dan kan Debian opgestart worden. Dit kan door naar het Opstart menu te gaan, Debian te kiezen in de lijst en vervolgens op \'Start linux\' te klikken.\n\nIn het opstart menu is ook de mogelijkheid om bepaalde opstart opties aan te passen.\n\nAls je op \'Start Linux\' hebt geklikt zal er een terminal worden geopend en bij de eerste keer opstarten zal er eenmalig wat instellingsvragen worden gesteld. Het opstarten zal even duren afhankelijk van de snelheid van je apparaat maar is afgerond zodra je de volgende regel ziet staan: \'root@localhost:/#\'.\nAls dit niet gebeurd controleer dan als eerste nogmaals of je wel root rechten hebt op je apparaat en of de kernel (die de fabrikant van jouw apparaat heeft meegeleverd) daadwerkelijk ondersteuning biedt voor loop-devices, als dit niet het probleem is en het onverhoopt toch niet werkt raadpleeg dan de FAQ</string>
+	<string name="debian_install_page4">De terminal die open staat kan je direct gebruiken als commandline, om de desktop te zien start de \'VNC viewer App\' die je eerder al hebt geïnstalleerd.\nVul bij IP address in:\'localhost\' en bij poort nummer 5900 en bij wachtwoord:\'debian\', klik daarna op verbinden en als alles goed ging zie je de desktop verschijnen.\n\n\nLET OP: om Backtrack af te sluiten tijp dan in de terminal:\'exit\' en druk op enter. Wacht vervolgens tot dat alles netjes is afgesloten.</string>
+	<string name="debian_image_description">Je kan uit 3 verschillende Images kiezen\n\nDe grote Image is een download van 1GB en zal na uitpakken 3,5GB aan ruimte innemen, Hier bij inbegrepen zit onder andere de XFCE Desktop en tal van programma\'s zoals open office.\n\nDe kleine Image is een download van 600MB en zal na uitpakken 2GB aan ruimte innemen. Hier bij inbegrepen zit onder andere de XFCE Desktop en een collectie van basis programma\'s\n\nDe basic Image is een download van 200MB en zal na uitpakken 750MB aan ruimte innemen. Dit is enkel een commandline versie zonder grafische desktop.</string>
+
+
+
+
+	<!-- Strings used in the download type selector dialog -->
+	<string name="dialog_select_donwload_type_title">Selecteer download optie</string>
+	<string name="dialog_select_donwload_type_description">Selecteer een download optie, je kan kiezen uit een torrent file of een directe download link vanaf Sourceforge.</string>
+	<string name="dialog_button_torrent">Torrent File</string>
+	<string name="dialog_button_sourceforge">Van Sourceforge</string>
+	<string name="dialog_button_cancel_download">Annuleer</string>
+
+	<!-- Strings for the build guides -->
+	<string name="buildGuides_Intro">Dit zijn de instructies om je eigen Image te creëren.\n\n Let op, deze instructies zijn niet generiek dus lees de specifieke instructie de distributie die je wil gebruiken!</string>
+	<string name="btn_BuildGuide_Ubuntu">Ubuntu instructies</string>
+
+	<!-- Strings for the tips -->
+	<string name="tips_text">Vind je linux traag lopen?\n\nAangezien je linux tegelijkertijd draait naast Android kan dat zwaar zijn voor je apparaat. In dat geval zou je kunnen overwegen om je CPU te overclocken. Je kan ook een custom ROM flashen met performance optimalisaties (b.v AOSP ROM) zodat je minder geheugen gebruikt</string>
+
+	<!-- Strings used for the changelog -->
+	<string name="changelog_intro">De change logs zijn onderverdeelt in 3 secties zodat het makkelijker te zien is waar wat is veranderd.\n(Zoals bij elke Applicatie update kan je er van uit gaan dat er een boel is veranderd)</string>
+	<string name="changelog_button_applog">Change log van deze App</string>
+	<string name="changelog_button_imagelog">Change log van de ondersteunde Images</string>
+	<string name="changelog_button_scriptlog">Change log van de opstart scripts</string>
+
+	<!-- Strings for the FAQ -->
+	<string name="FAQ_intro">Wat is Ubuntu/Backtrack/Debian?\nUbuntu/Backtrack/Debian zijn besturingssystemen op basis van de Linux kernel die je normaal gesproken op desktops zou draaien. Echter, met wat aanpassingen kan dit ook prima op Android apparaten draaien zoals je telefoon. Het komt er dus op neer dat je in principe alle linux software dus ook op je telefoon kan draaien.\n\nKan ik Ubuntu/Backtrack/Debian upgraden?\nNeen, als je een upgrade zou doen naar een nieuwe \'major release\' dan loopt het Image in de soep aangezien de handmatige aanpassingen door de ontwikkelaars van deze App daarmee verloren kunnen gaan. maar... je kan wel de programma\'s/packages zelf zonder probleem updaten\n\nWat zijn de beste instellingen voor de Android VNC Viewer?\n24-bit colour werkt uitstekend en er is weinig nog niets bij te winnen om een lagere kleurdiepte te kiezen, tevens is het aan te raden om voor \'touchpad\' te kiezen aangezien het niet erg fijn werkt met een touchscreen op een klein scherm. Als je touchpad kiest werkt het scherm ongeveer hetzelfde als een touchpad op een laptop en ik zelf vind dit fijn werken.\n\nUbuntu/Backtrack/Debian wil niet installeren/opstarten\nIn het geval dat je problemen hebt met Ubuntu/Backtrack/Debian bekijk dan eerst de lijst \'phones/kernels/android version\' waar van is bevestigd dat ze in ieder geval wel zouden moeten werken door op onderstaande knop te klikken. Als jouw apparaat daar niet tussen staat stuur mij dan een mail met daar in: kernel en android versie en ik zal je ZSM antwoorden.</string>
+	<string name="FAQ_WorkingDevices">Werkende apparaten</string>
+	<string name="FAQ_WhatCanIDo">Wat kan ik doen met Ubuntu/Backtrack/Debian?\nDe grote Images hebben veel software aan boord zoals bijvoorbeeld open office en Firefox en andere desktop programma\'s waarmee je android apparaat kan gebruiken als complete PC! Daar boven op kan je ook natuurlijk nog een heleboel extra programma\'s installeren die compatible zijn met de ARM architectuur of architectuur onafhankelijk zijn.</string>
+
+	<!-- The about text -->
+	<string name="about_intro">Dit project is begonnen op het moment dat ik probeerde om Ubuntu aan de praat te krijgen op mijn Desire S en groeit sindsdien onverminderd door!\n\nOp dit moment is het doel van dit project om het installeren en draaien van Ubuntu zo gemakkelijk mogelijk te maken voor ieder apparaat dat het toelaat. Sinds versie 2.0 heb ik het idee dat ik aardig in de buurt kom maar de tijd zal het uitwijzen.\n\nHet team:\nZachary Powell (zacthespack)\nMartin Møller (tuxling)\n\nVertalers:\nEngels - Zachary Powell (zacthespack)\nDeens - Martin Møller (tuxling)</string>
+
+	<!-- The search text -->
+	<string name="search_intro">Met deze optie kan je opzoeken welke ROM/kernel door Ubuntu ondersteund wordt, echter is de database nog niet klaar dus vooralsnog is de optie nog niet geactiveerd!</string>
+
+	<!-- Strings for the launcher -->
+	<string name="Launcher_Intro">Dit is een aangepaste \'one click\' oplossing om linux te booten, het is niet meer nodig om handmatig commando\'s in te voeren op de commandline  (Zoals in de gratis versie).\n\nKlik de menu knop op je apparaat om in de instellingen op te geven waar je de bestanden hebt opgeslagen.\nVervolgens kan je dan hier iedere linux distro opstarten of door de widget op je homescreen te plaatsen (die dan bij eerste gebruik op zijn beurt zal vragen om de locatie van de bestanden).\n\nDit nieuwe en sterk verbeterde \'one click\' boot systeem is ontworpen en geprogrammeerd door Martin Møller</string>
+	<string name="Launcher_Intro_Warning">Waarschuwing! De opgegeven Image voor dit profiel bestaat niet! Klik op de menu knop en pas de naam van dit Image aan.</string>
+		<string name="toast_warning_image_not_found">Waarschuwing! De opgegeven Image voor dit profiel bestaat niet!</string>
+
+	<string name="toolbox_TitleText">Selecteer hier onder een Linux distributie om te starten of te configureren.</string>
+	<string name="button_Configure">Configureer Linux</string>
+
+	<string name="button_StartLinux">Start Linux</string>
+
+	<string name="menu_AddDistro">Toevoegen</string>
+	<string name="menu_DeleteDistro">Wissen</string>
+	<string name="menu_EditDistro">Aanpassen</string>
+	<string name="menu_OpenFolder">Open folder</string>
+	<string name="hint_EnterName">Voer een naam in<string>
+	<string name="inputLabel_Name">Naam</string>
+
+	<!-- Config editor strings -->
+	<string name="title_ConfigureLinux">Configuratie</string>
+	<string name="Config_intro">Dit is het configuratiescherm, hier kan je de opstart settings configureren.</string>
+	<string name="config_button_mounts">Bestandskoppelingen configureren</string>
+	<string name="launcher_Label_ImageName">Image</string>
+
+	<string name="check_box_start_vnc">Start VNC Server</string>
+	<string name="check_box_start_ssh">Start SSH Server</string>
+	<string name="config_screen_width">Scherm breedte</string>
+	<string name="config_screen_height">Scherm hoogte</string>
+
+	<string name="title_ConfigureMounts">Bestandskoppelingen configuratie</string>
+
+	<string name="button_SaveAndExit">Aanpassingen opslaan</string>
+	<string name="button_mounts_back">Terug</string>
+	<string name="button_mounts_abort_changes">Aanpassingen ongedaan maken</string>
+
+	<string name="configure_Mounts_Intro">Hieronder kan je folders specificeren die je wil koppelen binnen de Linux omgeving. Een koppeling lang indrukken om aan te passen, klik menu om een koppeling toe te voegen of te verwijderen of de weergave modus aan te passen.</string>
+
+	<string name="label_AndroidPath">Android pad</string>
+	<string name="label_LinuxPath">Linux pad</string>
+
+
+	<string name="menu_ToggleViewMode">Weergave Modus aanpassen</string>
+	<string name="menu_AddMount">Koppeling Toevoegen</string>
+
+	<string name="mount_editor_viewmode_android">Android folders weergeven</string>
+	<string name="mount_editor_viewmode_linux">Linux koppelingen weergeven</string>
+	<string name="mount_editor_viewmode_both">Beiden weergeven</string>
+
+	<string name="context_menu_edit">Wijzig</string>
+	<string name="context_menu_delete">Wis</string>
+
+	<string name="message_cant_delete_last_profile">Je kan niet het enige overgebleven profiel verwijderen!</string>
+
+	<string name="dialog_delete_distro">Weet je zeker dat je dit profiel wil verwijderen?</string>
+	<string name="dialog_delete_mount">Weet je zeker dat je deze koppeling wil verwijderen?</string>
+
+	<string name="dialog_must_enter_name">Je moet een naam invoeren!</string>
+	<string name="dialog_changes_saved">Aanpassingen opgeslagen</string>
+	<string name="dialog_added">Toegevoegd</string>
+	<string name="dialog_name_already_exist">Naam bestaat al</string>
+
+
+	<string name="dialog_button_ok">OK</string>
+	<string name="dialog_button_cancel">Annuleer</string>
+	<string name="dialog_button_yes">Ja</string>
+	<string name="dialog_button_no">Nee</string>
+
+	<string name="dialog_message_deleted">Verwijderd</string>
+	<string name="dialog_message_saved">Opgeslagen</string>
+	<string name="dialog_message_aborted">Geannuleerd</string>
+	<string name="dialog_message_mounts_saved">Koppelingen Opgeslagen</string>
+	<string name="dialog_message_changes_aborted">Wijzigingen Geannuleerd</string>
+
+	<string name="mounts_editor_popup_hint_linux_path">Voer Linux folder in</string>
+	<string name="mounts_editor_popup_hint_android_path">Android folder om te delen</string>
+
+
+	<!--Strings for the widgets -->
+	<string name="widget_name_debian">One Click Boot Debian</string>
+	<string name="widget_name_backtrack">One Click Boot Backtrack</string>
+	<string name="widget_name_ubuntu">One Click Boot Ubuntu</string>
+
+	<string name="widget_toast_image_not_found">Image niet gevonden!</string>
+
+	<string name="cfg_widget_save">Opslaan</string>
+	<string name="cfg_Label_ImagePath">Volledige pad naar Image</string>
+	<string name="cfg_Label_Path">Pad</string>
+	<string name="cfg_Label_ScriptName">Script Naam</string>
+	<string name="cfg_Label_Description">Voer het volledige pad in naar Image.\n(Eenmalig)</string>
+
+	<!-- These are used as activities titles -->
+	<string name="content_Description_dummy"></string>
+	<string name="content_Description_logo">Complete Linux Installer</string>
+	<string name="content_Description_about">Over</string>
+	<string name="content_Description_home">Home</string>
+	<string name="content_Description_search">Zoek</string>
+	<string name="content_Description_feature1">Installatie handleidingen</string>
+	<string name="content_Description_feature2">Build handleidingen</string>
+	<string name="content_Description_feature3">Tips</string>
+	<string name="content_Description_feature4">FAQ</string>
+	<string name="content_Description_feature5">Change Logs</string>
+	<string name="content_Description_feature6">Opstarten</string>
+	
+	<!-- License checking status messages -->
+    <string name="check_license">Check Licentie</string>
+    <string name="checking_license">Licentie controleren</string>
+    <string name="dont_allow">Geef gebruiker geen toegang</string>
+    <string name="allow">Geef gebruiker toegang</string>
+    <string name="application_error">Applicatie fout: %1$s</string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="unlicensed_dialog_title">Applicatie niet gelicenseerd</string>
+    <string name="unlicensed_dialog_body">Deze applicatie is niet gelicenseerd. AUB aanschaffen via Android Market.</string>
+    <string name="unlicensed_dialog_retry_body">Kan licentie niet valideren. Controleer de netwerk verbinding.</string>
+    <string name="buy_button">Koop App</string>
+    <string name="retry_button">Opnieuw proberen</string>
+    <string name="quit_button">Afsluiten</string>
+
+	<!-- Strings not shown to normnal users, don't need to be translated! -->
+	<string name="code_error_text">IF YOU SEE THIS WE MADE AN ERROR IN THE APP, PLEASE LET US KNOW!</string>
+
+    <string name="title_ConfigureAutoRun">Auto Run Settings</string>
+    <string name="menu_AutoRunConfig">Auto Run Settings</string>
+    <string name="autorun_config_intro">Hier kan je een Image specificeren die automatisch zal worden opgestart tegelijkertijd als android opstart.</string>
+    <string name="autorun_config_checkbox_text">Auto run ingeschakeld</string>
+    <string name="autorun_config_label_text_image">Image naam</string>
+
+	<!-- Strings added 05/06-2012 -->
+	<string name="title_ScriptUpdater">Update Scripts</string>
+	<string name="menu_UpdateScripts">Update Scripts</string>
+	<string name="updater_BootIntro">Boot script, dit is het script dat wordt gebruikt voor het Opstarten en de widgets</string>
+	<string name="updater_AutoBootIntro">Auto boot script, dit script wordt gebruikt om een Image automatisch op te starten bij Android opstart</string>
+	<string name="updater_Label_InstalledBoot">Geïnstalleerd:</string>
+	<string name="updater_Label_OnlineBoot">Latest:</string>
+	<string name="updater_Label_InstalledAutoBoot">Installed:</string>
+	<string name="updater_Label_OnlineAutoBoot">Meest recent:</string>
+	<string name="updater_btn_UpdateBootScript">Update Boot Script</string>
+	<string name="updater_btn_UpdateAutoBootScript">Update Auto Boot Script</string>
+
+	<!-- Strings added 08/06-2012 -->
+	<string name="launcer_ImageAlreadyMounted">Een andere Image is reeds gekoppeld, wil je desondanks de Image koppelen?</string>
+	<string name="launcer_StartAborted">Niet gestart!</string>
+	<string name="updater_ErrorGettingVersions">Kan geen informatie van de server ophalen, controleer de netwerk verbinding en probeer het opnieuw!</string>
+	<string name="updater_ErrorDownloadingFile">Kan bestand niet downloaden, controleer de netwerk verbinding en probeer het opnieuw!</string>
+	<string name="updater_Btn_Ok">OK</string>
+	
+	<!-- Strings added 16/07-2012 -->
+	<string name="installGuide_Menu_ArchLinux">ArchLinux</string>
+	<string name="installGuide_Menu_Fedora">Fedora 17</string>
+	<string name="installGuide_Menu_openSUSE">openSUSE 12</string>
+	<string name="comings_soon_text">Deze distributie is op dit moment nog niet beschikbaar!\n\nDegene die een donatie hebben gedaan zullen als eerste toegang tot de test versies krijgen (zodra deze versie stabiel is zal deze ook automatisch toe worden gevoegd aan de gratis App)</string>
+	<string name="terminal_error">Kan de \'terminal App\' niet vinden!\nZorg dat je de correcte terminal App hebt geinstalleed zoals omschreven in de installatie handleiding.\n\nMocht de terminal App al meegeïnstalleerd zijn met jouw ROM versie dan zal je deze moeten de-installeren en opnieuw installeren via de marketplace</string>
+	
+    <!--  Strings added 16/08-2012 -->
+    <string name="check_box_swap">Creëer een 1GB SWAP file</string>
+    <string name="beta_text">Deze distributie wordt op dit moment nog getest\n\nOm toegang te krijgen tot test versies zal je eerst een donatie sleutel moeten kopen via de market\n\nZodra de distributie stabiel is zal deze beschikbaar worden voor iedereen</string>
+	
+	<string name="arch_install_page1">Voordat we kunnen beginnen MOET je \'root\' rechten hebben en een kernel die \'loop devices\' ondersteund. Let verder ook op dat als je apparaat weinig RAM geheugen heeft dat het aan te raden is om ook een kleinere versie te kiezen zodat het systeem genoeg geheugen over heeft om soepel te draaien.\n\nZorg tevens dat je debugging mode aan hebt staan. Om dit te controleren ga naar Instellingen->Ontwikkelaarsopties voor nieuwere android versies en voor ouder versies naar Instellingen->Applicatiebeheer->Ontwikkeling en controleer dat het vinkje bij USB-foutopsporing AAN staat.\n\nVerder is het van belang dat voor een grote distributie je minimaal 3,5GB vrije ruimte op je interne opslag of sdcard hebt\n\nPas als alle voornoemde zaken in orde zijn klik dan op Volgende, zo niet, dan zal de installatie mislukken!</string>
+	<string name="arch_install_page2">Om te beginnen dient de Archlinux Image te worden gedownload.</string>
+	<string name="arch_install_page3">Maak een folder op je sdkaart of interne opslag en noem die \'archlinux\'. Pak vervolgens het zip bestand uit met je favoriete file-manager of unzip App en plaats de bestanden in de net aangemaakte folder \'archlinux\'. (Als het goed is zijn dat twee bestanden: archlinux.img en archlinux.img.md5 maar als je enkel archlinux.img hebt is dat in principe voldoende)\n\nAls dit gedaan is dan kan Debian opgestart worden. Dit kan door naar het Opstart menu te gaan, Debian te kiezen in de lijst en vervolgens op \'Start linux\' te klikken.\n\nIn het opstart menu is ook de mogelijkheid om bepaalde opstart opties aan te passen.\n\nAls je op \'Start Linux\' hebt geklikt zal er een terminal worden geopend en bij de eerste keer opstarten zal er eenmalig wat instellingsvragen worden gesteld. Het opstarten zal even duren afhankelijk van de snelheid van je apparaat maar is afgerond zodra je de volgende regel ziet staan: \'root@localhost:/#\'.\nAls dit niet gebeurd controleer dan als eerste nogmaals of je wel root rechten hebt op je apparaat en of de kernel (die de fabrikant van jouw apparaat heeft meegeleverd) daadwerkelijk ondersteuning biedt voor loop-devices, als dit niet het probleem is en het onverhoopt toch niet werkt raadpleeg dan de FAQ</string>
+	<string name="arch_install_page4">De terminal die open staat kan je direct gebruiken als commandline, om de desktop te zien start de \'VNC viewer App\' die je eerder al hebt geïnstalleerd.\nVul bij IP address in:\'localhost\' en bij poort nummer 5900 en bij wachtwoord:\'backtrac\', klik daarna op verbinden en als alles goed ging zie je de desktop verschijnen.\n\n\nLET OP: om ubuntu af te sluiten tijp dan in de terminal:\'exit\' en druk op enter. Wacht vervolgens tot dat alles netjes is afgesloten.</string>
+	<string name="arch_image_description">LET OP: DIT IS EEN BETA VERSIE bekijk de changelog voor meer info over al reeds bekende problemen.\n\nJe kan uit 3 verschillende Images kiezen\n\nDe grote Image is een download van 1,6GB en zal na uitpakken 3,5GB aan ruimte innemen, hier bij inbegrepen zit onder andere de KDE Desktop.\n\nDe kleine Image is een download van 600MB en zal na uitpakken 2GB aan ruimte innemen. Hier bij inbegrepen zit onder andere de LXDE Desktop en een collectie van basis programma\'s\n\nDe basic Image is een download van 300MB en zal na uitpakken 750MB aan ruimte innemen. Dit is enkel een commandline versie zonder grafische desktop.</string>
+</string></string>
+</resources>
