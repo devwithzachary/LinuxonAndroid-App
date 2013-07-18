@@ -1,17 +1,17 @@
 <!--
- Copyright (C) 2012 linuxonandroid.org
+Copyright (C) 2013 linuxonandroid.org
 
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-      http://www.apache.org/licenses/LICENSE-2.0
+http://www.apache.org/licenses/LICENSE-2.0
 
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -38,11 +38,8 @@
             android:hint="@string/hint_EnterName"
             android:textColor="#FF111111" >
 
-            <requestFocus></requestFocus>
+            
         </EditText>
-    </RelativeLayout>
-
-    <RelativeLayout android:layout_alignBaseline="@+id/layout_root" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="8sp" android:id="@+id/RelativeLayout2">
     </RelativeLayout>
 
     <RelativeLayout
@@ -63,18 +60,44 @@
             android:id="@+id/txt_ImageName"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textColor="#FF111111" android:layout_toRightOf="@id/label_Image">
+            android:layout_toLeftOf="@+id/fileselector"
+            android:layout_toRightOf="@id/label_Image"
+            android:textColor="#FF111111" >
 
-            <requestFocus></requestFocus>
+            
         </EditText>
+
+        <Button
+            android:id="@+id/fileselector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txt_ImageName"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="..." />
+
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/RelativeLayout4"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/layout_root"
-        android:layout_marginTop="8sp" >
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_DismissChanges"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/button_mounts_abort_changes" />
+
+        <Button
+            android:id="@+id/btn_SaveAndExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/button1"
+            android:text="@string/button_SaveAndExit" />
+
     </RelativeLayout>
 
 </LinearLayout>

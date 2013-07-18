@@ -1,122 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- Copyright (C) 2012 linuxonandroid.org
+Copyright (C) 2013 linuxonandroid.org
 
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-      http://www.apache.org/licenses/LICENSE-2.0
+http://www.apache.org/licenses/LICENSE-2.0
 
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
 -->
-<manifest android:versionCode="2" android:versionName="1.0.1" package="com.zpwebsites.linuxonandroid.opensource" xmlns:android="http://schemas.android.com/apk/res/android">
-	<uses-sdk android:minSdkVersion="4" android:targetSdkVersion="8"/>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zpwebsites.linuxonandroid.opensource"
+    android:versionCode="3"
+    android:versionName="2" >
 
-	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET" />
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="com.android.vending.CHECK_LICENSE" />
 	<uses-permission android:name="jackpal.androidterm.permission.RUN_SCRIPT"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.Light" >
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-	<application android:theme="@style/Theme.D1" android:label="@string/app_name" android:icon="@drawable/icon">
-	   	<activity android:label="@string/app_name" android:name=".HomeActivity">
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.LAUNCHER" />
-			</intent-filter>
-		</activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity  android:label="@string/title_about" android:name=".About" />
+        <activity  android:label="@string/frontpage_btn_news" android:name=".News" />
+        <activity  android:label="@string/frontpage_btn_FAQ" android:name=".FAQ" />
+        <activity  android:label="@string/frontpage_btn_Tips" android:name=".Tips" />
+        
+        <activity  android:label="@string/frontpage_btn_Launch" android:name=".Launcher" />
+       	<activity android:label="@string/title_ConfigureLinux" android:name=".Configure" />
+		<activity android:label="@string/title_ConfigureMounts" android:name=".Mounts_Editor" />
+		<activity android:label="@string/title_ConfigureAutoRun" android:name=".AutoRun_ConfigEditor" />
+		<activity android:label="@string/title_ScriptUpdater" android:name=".Script_Updater" />
 
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".InstallGuides_Menu" />
+        <activity  android:label="@string/menu_EditDistro" android:name=".Distro_Editor" />
 
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Ubuntu10_1" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Ubuntu10_2" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Ubuntu10_3" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Ubuntu10_4" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Download_Ubuntu10_Menu" />
-
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Ubuntu12_1" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Ubuntu12_2" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Ubuntu12_3" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Ubuntu12_4" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Download_Ubuntu12_menu" />
-
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Backtrack_1" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Backtrack_2" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Backtrack_3" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Backtrack_4" />
-
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Debian_1" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Debian_2" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Debian_3" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Debian_4" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Download_Debian_Menu" />
-
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Arch_1" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Arch_2" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Arch_3" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Arch_4" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_InstallGuides" android:name=".Download_Arch_menu" />
-		
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_BuildGuides" android:name=".Build_Guides" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_BuildGuides" android:name=".Build1" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_BuildGuides" android:name=".Build2" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_BuildGuides" android:name=".Build3" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_BuildGuides" android:name=".Build4" />
-
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_Tips" android:name=".Tips" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_FAQ" android:name=".Faq" />
-
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_Changelog" android:name=".Changelog" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_Changelog" android:name=".Changelog_Viewer" />
-
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_BuildGuides" android:name=".TextViewer" />
-
-
-		<activity android:theme="@style/Theme.D1" android:label="@string/frontpage_btn_Launch" android:name=".Launch" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/title_ScriptUpdater" android:name=".Script_Updater" />
-
-		<activity android:theme="@style/Theme.D1" android:label="@string/title_about" android:name=".AboutActivity" />
-		<activity android:theme="@style/Theme.D1" android:label="@string/title_search" android:name=".NewsActivity" />
-
-<!-- 	<activity android:label="@string/app_name" android:name=".HomeActivity" />  -->
-
-		<activity android:name=".Backtrack_Activity"></activity>
-		<activity android:name=".Ubuntu_Activity"></activity>
-		<activity android:name=".Debian_Activity"></activity>
-		
-
-		<receiver android:name=".Backtrack_WidgetProvider" android:label="@string/widget_name_backtrack" android:icon="@drawable/icon_backtrack">
+        <activity android:label="@string/frontpage_btn_InstallGuides" android:name=".Install_Guides" />
+        <activity android:label="@string/backtrack_guide" android:name=".Install_Backtrack" />
+        <activity android:label="@string/archlinux_guide" android:name=".Install_Arch" />
+        <activity android:label="@string/debian_guide" android:name=".Install_Debian" />
+        <activity android:label="@string/ubuntu10_guide" android:name=".Install_Ubuntu10" />
+        <activity android:label="@string/ubuntu12_guide" android:name=".Install_Ubuntu12" />
+        <activity android:label="@string/fedora_guide" android:name=".Install_Fedora" />
+        <activity android:label="@string/kali_guide" android:name=".Install_Kali" />
+        
+        
+        <activity android:label="@string/frontpage_btn_Changelog" android:name=".Change_logs" />
+        <activity android:label="@string/frontpage_btn_Changelog" android:name=".Changelog_Viewer" />
+        <activity android:name=".SideBar" />
+        
+        <activity android:name="group.pals.android.lib.ui.filechooser.FileChooserActivity" />
+        <service android:name="group.pals.android.lib.ui.filechooser.services.LocalFileProvider" />
+        
+        <activity android:name=".Widget_Activity"></activity>
+        
+        <receiver android:name=".Boot_WidgetProvider" android:label="@string/widget_name_linux" android:icon="@drawable/icon_widget">
 			<intent-filter>
 				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
 			</intent-filter>
-			<meta-data android:name="android.appwidget.provider" android:resource="@xml/backtrack_widget_info" />
+			<meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_info" />
 		</receiver>
-
-		<receiver android:name=".Ubuntu_WidgetProvider" android:label="@string/widget_name_ubuntu" android:icon="@drawable/icon_ubuntu">
-			<intent-filter>
-				<action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>			
-			</intent-filter>
-			<meta-data android:name="android.appwidget.provider" android:resource="@xml/ubuntu_widget_info" />
-		</receiver>
-
-		<receiver android:name=".Debian_WidgetProvider" android:label="@string/widget_name_debian" android:icon="@drawable/icon_debian">
+		
+       <!--  <receiver android:name=".MBoot_WidgetProvider" android:label="@string/widgetm_name_linux" android:icon="@drawable/icon_widget">
 			<intent-filter>
 				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
 			</intent-filter>
-			<meta-data android:name="android.appwidget.provider" android:resource="@xml/debian_widget_info" />
-		</receiver>
-
-		<receiver android:name=".OnBootReceiver">
-			<intent-filter>
-				<action android:name="android.intent.action.BOOT_COMPLETED" />
-			</intent-filter>
-		</receiver>
-
-	</application>
+			<meta-data android:name="android.appwidget.provider" android:resource="@xml/widgetm_info" />
+		</receiver> --> 
+            
+    </application>
 
 </manifest>

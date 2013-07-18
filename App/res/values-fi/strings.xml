@@ -22,98 +22,88 @@ Thanks for your help, zacthespack & tuxling.
 -->
 
 <resources>
-	<string name="hello">Valitse alla olevista ominaisuuksista yksi.</string>
-	<string name="app_name">Täydellinen Linux-asennusohjelma</string>
+	<string name="app_name">Linux-asennusohjelma</string>
 
 	<!-- Strings used more than one place -->
 	<string name="title_about">Tietoa</string>
-	<string name="title_home">Aloitusvalikko</string>
-	<string name="title_search">Etsi</string>
-
+	
 	<string name="button_back">Takaisin</string>
-	<string name="button_next">Seuraava</string>
-	<string name="button_finished">Viimeistele</string>
 
 	<string name="download_VNC">Lataa/Asenna VNCViewer-sovellus</string>
-	<string name="download_Term">Lataa/Asenna päätesovellus (Terminal App)</string>
-	<string name="download_sourceforge">Lataa Sourceforgesta</string>
+	<string name="download_Term">Lataa/Asenna Terminal-sovellus (pääte)</string>
+	<string name="download_sourceforge">Lataa sourceforgesta</string>
 	<string name="download_Torrent">Lataa torrent-tiedosto</string>
-
+    
+    <string name="install_page1">Ennen aloittamista, sinulla TÄYTYY olla root-oikeudet sekä ydin (kernel) joka tukee Loop Devices -toimintoa. Tämä toimii parhaiten kevyillä rom-tiedostoilla, jotka jättävät vapaaksi enemmän keskusmuistia Linuxin käyttöön.\n\nVarmista myös, että debug-tila on käytössä menemällä Asetukset->Sovellukset->Kehittäjä ja varmista että vaihtoehto USB-vianetsintä (USB Debugging) on valittuna.\n\nLevykuvaa varten muistikortilla täytyy olla riittävästi tilaa.\n\nJos kaikki vaatimukset täyttyvät, paina Seuraava. Mikäli ne eivät täyty, asennus ei onnistu</string>
 	<string name="install_apps_text">Tämän latautuessa, lataa ja asenna pääte- sekä vncviewer-sovellukset jos et ole sitä jo tehnyt</string>
-	<string name="after_install_text">Kun olet ladannut Linux-paketin sekä asentanut pääte- sekä vncviewer-sovellukset, paina Seuraava</string>
+	<string name="after_install_text">Kun olet ladannut Linux-paketin sekä asentanut pääte- sekä vncviewer-sovellukset, valitse seuraava välilehti</string>
 
-	<!-- Front page buttons -->
-	<string name="frontpage_btn_InstallGuides">Asennusoppaat</string>
-	<string name="frontpage_btn_BuildGuides">Koontioppaat (Build Guides)</string>
+	<!-- Side Menu buttons -->
+	<string name="frontpage_btn_InstallGuides">Asennusoppaat Guides</string>
 	<string name="frontpage_btn_Tips">Vinkit</string>
-	<string name="frontpage_btn_FAQ">Usein Kysytyt Kysymykset (UKK)</string>
-	<string name="frontpage_btn_Changelog">Muutoslokit</string>
+	<string name="frontpage_btn_FAQ">UKK</string>
+	<string name="frontpage_btn_Changelog">Muutosloki</string>
 	<string name="frontpage_btn_Launch">Käynnistä</string>
+	<string name="frontpage_btn_news">Uutisvirta</string>
+	<string name="frontpage_btn_about">Tietoa</string>
 
 	<!-- Strings used on the install guides main menu -->
 	<string name="installGuide_Menu_Intro">Tässä ovat asennusoppaat tuettujen Linux-jakeluiden osalta.</string>
-	<string name="installGuide_Menu_Ubuntu10">Ubuntu 10 Asennusopas</string>
-	<string name="installGuide_Menu_Ubuntu12">Ubuntu 12 Asennusopas</string>
-	<string name="installGuide_Menu_Backtrack">Backtrack Asennusopas</string>
-	<string name="installGuide_Menu_Debian">Debian Asennusopas</string>
-
+	<string name="installGuide_Menu_Ubuntu10">Ubuntu 10 asennusopas</string>
+	<string name="installGuide_Menu_Ubuntu12">Ubuntu 12 asennusopas</string>
+	<string name="installGuide_Menu_Backtrack">Backtrack asennusopas</string>
+	<string name="installGuide_Menu_Debian">Debian asennusopas</string>
+	<string name="installGuide_Menu_ArchLinux">ArchLinux</string>
+	<string name="installGuide_Menu_Fedora">Fedora 17</string>
+	<string name="installGuide_Menu_openSUSE">openSUSE 12</string>
+	<string name="comings_soon_text">Nämä jakelut tulossa pian!\n\nLahjoitusavaimen (donation key) ostaneet saavat testiversiot ensimmäisenä (jakelujen vakaat versiot avataan kaikille)</string>
+	
+	<string name="debian_guide">Asenna Debian</string>
+	<string name="backtrack_guide">Asenna Backtrack</string>
+	<string name="archlinux_guide">Asenna Archlinux</string>
+	<string name="ubuntu10_guide">Asenna Ubuntu 10.10</string>
+	<string name="ubuntu12_guide">Asenna Ubuntu 12.04</string>
+	
+	<!-- Strings for all download guides -->
+	<string name="download_menu_button">Lataa levykuva</string>
+	<string name="download_Large">Lataa suuri levykuva</string>
+	<string name="download_Small">Lataa pieni levykuva</string>
+	<string name="download_Core">Lataa riisuttu levykuva</string>
+	
 	<!-- Strings for ubuntu 10 install guide -->
-	<string name="ubuntu10_download_Script">Lataa käynnistysscripti</string>
-	<string name="ubuntu10_download_menu_button">Lataa Ubuntu-levykuva</string>
-	<string name="ubuntu10_download_Large">Lataa suuri Ubuntu-levykuva</string>
-	<string name="ubuntu10_download_Small">Lataa pieni Ubuntu-levykuva</string>
-
-	<string name="ubuntu10_install_page1">Ennen aloittamista, sinulla TÄYTYY olla root-oikeudet sekä ydin (kernel) joka tukee Loop Devices -toimintoa. Tämä toimii parhaiten kevyillä rom-tiedostoilla, jotka jättävät vapaaksi enemmän keskusmuistia Ubuntun käyttöön.\n\nVarmista myös, että debug-tila on käytössä menemällä Asetukset->Sovellukset->Kehittäjä ja varmista että vaihtoehto USB-vianetsintä (USB Debugging) on valittuna.\n\nSuurta levykuvaa varten tarvitaan vapaata levytilaa vähintään 3,5GB, pientä varten 2,5GB.\n\nJos kaikki vaatimukset täyttyvät, paina Seuraava. Mikäli ne eivät täyty, asennus ei onnistu.</string>
-	<string name="ubuntu10_install_page2">Aloitetaan lataamalla Ubuntun levykuvatiedosto seuraavista vaihtoehdoista: suuri, pieni tai riisuttu. Suuren levykuvan mukana tulee esiasennettuja ohjelmia kun taas pieni levykuva on kooltaan huomattavasti pienempi ja kevyempi.</string>
-	<string name="ubuntu10_install_page3">Latauksen valmistuttua, pura zip-paketti valitsemallasi tiedostonhallintasovelluksella kansioon nimeltä ubuntu muistikorttisi(sdcard) juuressa (siellä pitäisi olla kaksi tiedostoa, ubuntu.img ja ubuntu.img.md5)\n\nVoit nyt käynnistää Ubuntun joko Käynnistä-valikosta tai luomalla Ubuntu-widgetin kotiruudullesi ja painamalla sitä.\n\nAsetuksia, kuten näytön tarkkuuden, voi määrittää Käynnistä-valikossa (tämän sovelluksen aloitusruudulla).\n\nHetken kuluttua näytöllä pitäisi näkyä viesti root@localhost:/#. Mikäli kyseinen teksti näkyy, on Ubuntu käynnissä joten paina Seuraava.\nJos viesti ei näy, tarkista että sinulla on root-oikeudet ja ydin (kernel) joka tukee loop devices -ominaisuutta. Mikäli ongelmia silti ilmenee, tarkista UKK-osio.</string>
-	<string name="ubuntu10_install_page4">Pääte käyttäytyy nyt kuten Ubuntun komentokehote, ottaaksesi yhteyden graafiseen käyttöliittymään käynnistä VNC viewer -sovellus.\nAseta IP-osoitteeksesi localhost ja portiksi numero 5900, syötä salasana ubuntu ja paina Yhdistä (Connect) jolloin graafinen käyttöliittymä käynnistyy.\n\n\nHUOM! Kun lopetat Ubuntun käytön, kirjoita komentorivillä exit ja odota että kaikki sammuu.</string>
-	<string name="ubuntu10_image_description">Suuri levykuva on ladattaessa kooltaan 1,5GB, purettuna 3,5GB ja sisältää runsaan valikoiman ohjelmia Pythonista Open Officeen. Vapaata tilaa jää n. 1,5 GB omien ohjelmien asentamista varten.\n\nPieni levykuva on ladattaessa kooltaan n. 500MB, purettuna 2,5GB ja sisältää vain perusohjelmat kuten internet-selaimen sekä Javan. Vapaata tilaa jää n. 1,5 GB omaan käyttöön.</string>
+	<string name="ubuntu10_install_page2">Aloitetaan lataamalla Ubuntun levykuvatiedosto seuraavista vaihtoehdoista: suuri, pieni tai riisuttu.</string>
+	<string name="ubuntu_install_page3">Latauksen valmistuttua, pura zip-paketti valitsemallasi tiedostonhallintasovelluksella kansioon nimeltä ubuntu muistikorttisi(sdcard) juuressa (siellä pitäisi olla kaksi tiedostoa, ubuntu.img ja ubuntu.img.md5)\n\nVoit nyt käynnistää Ubuntun joko Käynnistä-valikosta tai luomalla Ubuntu-widgetin kotiruudullesi ja painamalla sitä.\n\nAsetuksia, kuten näytön tarkkuuden, voi määrittää Käynnistä-valikossa (jos sinulla on lahjoitusavain), Huom! Jos levykuva ei ole hakemistossa /sdcard/ubuntu/ubuntu.img  sinun täytyy muuttaa tiedostosijainti käynnistimessä (Valitse Asetukset valikosta Muokkaa).\n\n Hetken kuluttua näytöllä pitäisi näkyä viesti root@localhost:/#Mikäli kyseinen teksti näkyy, on Ubuntu käynnissä joten valitse seuraava välilehti.\nJos viesti ei näy, tarkista että sinulla on root-oikeudet ja ydin (kernel) joka tukee loop devices -ominaisuutta. Mikäli ongelmia silti ilmenee, tarkista UKK-osio.</string>
+	<string name="ubuntu_install_page4">Pääte käyttäytyy nyt kuten Ubuntun komentokehote, ottaaksesi yhteyden graafiseen käyttöliittymään käynnistä VNC viewer -sovellus.\nAseta IP-osoitteeksesi localhost ja portiksi numero 5900, syötä salasana ubuntu ja paina Yhdistä, jolloin graafinen käyttöliittymä käynnistyy.\n\n\nHUOM! Kun lopetat Ubuntun käytön, kirjoita komentorivillä exit ja odota että kaikki sammuu.</string>
+	<string name="ubuntu10_image_description">Suuri levykuva on ladattaessa kooltaan 1,5GB, purettuna 3,5GB ja sisältää runsaan valikoiman ohjelmia Pythonista Open Officeen. Vapaata tilaa jää n. 1,5 GB omien ohjelmia varten.\n\nPieni levykuva on ladattaessa kooltaan n. 500MB, purettuna 2,5GB ja sisältää vain perusohjelmat kuten internet-selaimen sekä Javan. Vapaata tilaa jää n. 1,5 GB omaan käyttöön.</string>
 
 	<!-- Strings for ubuntu 12 install guide -->
-	<string name="ubuntu12_download_Script">Lataa käynnistysskripti</string>
-	<string name="ubuntu12_download_menu_button">Lataa Ubuntu-levykuva</string>
-	<string name="ubuntu12_download_Large">Lataa suuri Ubuntu-levykuva</string>
-	<string name="ubuntu12_download_Small">Lataa pieni Ubuntu-levykuva</string>
-	<string name="ubuntu12_download_Core">Lataa riisuttu Ubuntu-levykuva</string>
-
-	<string name="ubuntu12_install_page1">Ennen aloittamista, sinulla TÄYTYY olla root-oikeudet sekä ydin (kernel) joka tukee Loop Devices -toimintoa. Tämä toimii parhaiten kevyillä rom-tiedostoilla, jotka jättävät vapaaksi enemmän keskusmuistia Ubuntun käyttöön.\n\nVarmista myös, että debug-tila on käytössä menemällä Asetukset->Sovellukset->Kehittäjä ja varmista että vaihtoehto USB-vianetsintä (USB Debugging) on valittuna.\n\nSuurta levykuvaa varten tarvitaan vapaata levytilaa vähintään 3,5GB, pientä varten 2,5GB.\n\nJos kaikki vaatimukset täyttyvät, paina Seuraava. Mikäli ne eivät täyty, asennus ei onnistu.</string>
-	<string name="ubuntu12_install_page2">Aloitetaan lataamalla Ubuntun levykuvatiedosto seuraavista vaihtoehdoista: suuri, pieni tai riisuttu. Painamalla Lataa-painiketta saat lisätietoa kustakin levykuvasta.</string>
-	<string name="ubuntu12_install_page3">Latauksen valmistuttua, pura zip-paketti valitsemallasi tiedostonhallintasovelluksella kansioon nimeltä ubuntu muistikorttisi(sdcard) juuressa (siellä pitäisi olla kaksi tiedostoa, ubuntu.img ja ubuntu.img.md5)\n\nVoit nyt käynnistää Ubuntun joko Käynnistä-valikosta tai luomalla Käynnistä Ubuntu -widgetin kotiruudullesi ja painamalla sitä.\n\nAsetuksia, kuten näytön tarkkuuden, voi määrittää Käynnistä-valikossa (tämän sovelluksen aloitusruudulla).\n\nHetken kuluttua näytöllä pitäisi näkyä viesti root@localhost:/#. Mikäli kyseinen teksti näkyy, on Ubuntu käynnissä joten paina Seuraava.\nJos viesti ei näy, tarkista että sinulla on root-oikeudet ja ydin (kernel) joka tukee loop devices -ominaisuutta. Mikäli ongelmia silti ilmenee, tarkista UKK-osio.</string>
-	<string name="ubuntu12_install_page4">Pääte käyttäytyy nyt kuten Ubuntun komentokehote, ottaaksesi yhteyden graafiseen käyttöliittymään käynnistä VNC viewer -sovellus.\nAseta IP-osoitteeksesi localhost ja portiksi numero 5900, syötä salasana ubuntu ja paina Yhdistä (Connect) jolloin käyttöliittymä käynnistyy.\n\n\nHUOM! Kun lopetat Ubuntun käytön, kirjoita komentorivillä exit ja odota että kaikki sammuu.</string>
-	<string name="ubuntu12_image_description">Riisuttu levykuva on ladattessa kooltaan 200MB, purettuna 750MB ja sisältää vain välttämättömän Ubuntun käyttämiseksi, mukana ei tule graafista käyttöliittymää ja tilaa jää n. 400MB omien ohjelmien asennusta varten.\nPieni levykuva on ladattaessa kooltaan n. 400MB, purettuna 2GB ja sisältää LXDE työpöydän sekä perusohjelmat kuten Firefoxin sekä leafpadin. Vapaata tilaa jää n. 1GB omien ohjelmien asentamista varten.\nSuuri levykuva on ladattaessa kooltaan n. 1,3GB, purettuna 3,5GB ja sisältää Unity työpöydän sekä valikoiman ohjelmia. Vapaata tilaa jää n. 1,1 GB omaan käyttöön.</string>
+	<string name="ubuntu12_install_page2">Aloitetaan lataamalla Ubuntun levykuvatiedosto seuraavista vaihtoehdoista: suuri, pieni tai riisuttu. Saat lisätietoa kustakin vaihtoehdosta klikkaamalla Lataa-painiketta</string>
+	<string name="ubuntu12_image_description">Riisuttu levykuva on ladattessa kooltaan 200MB, purettuna 750MB ja sisältää vain välttämättömän Ubuntun käyttämiseksi, mukana ei tule graafista käyttöliittymää ja tilaa jää n. 400MB omien ohjelmien asennusta varten.\nPieni levykuva on ladattaessa kooltaan n. 400MB, purettuna 2GB ja sisältää LXDE työpöydän sekä perusohjelmat kuten Firefoxin sekä leafpadin. Vapaata tilaa jää n. 1GB.\nSuuri levykuva on ladattaessa kooltaan n. 1,3GB, purettuna 3,5GB ja sisältää Unity työpöydän sekä valikoiman ohjelmia. Vapaata tilaa jää n. 1,1 GB omaan käyttöön.</string>
 
 	<!-- Strings for Backtrack install guide -->
-	<string name="backtrack_download_Script">Lataa käynnistysskripti</string>
-	<string name="backtrack_download_Image">Lataa Backtrack-levykuva</string>
-
-	<string name="backtrack_install_page1">Ennen aloittamista, sinulla TÄYTYY olla root-oikeudet sekä ydin (kernel) joka tukee Loop Devices -toimintoa. Tämä toimii parhaiten kevyillä rom-tiedostoilla, jotka jättävät vapaaksi enemmän keskusmuistia Backtrackin käyttöön.\n\nVarmista myös, että debug-tila on käytössä menemällä Asetukset->Sovellukset->Kehittäjä ja varmista että vaihtoehto USB-vianetsintä (USB Debugging) on valittuna.\n\nSuurta levykuvaa varten tarvitaan vapaata levytilaa vähintään 3,5GB, pientä varten 2,5GB.\n\nJos kaikki vaatimukset täyttyvät, paina Seuraava. Mikäli ne eivät täyty, asennus ei onnistu.</string>
-	<string name="backtrack_install_page2">Aloitetaan lataamalla Backtrackin levykuvatiedosto.</string>
-	<string name="backtrack_install_page3">Latauksen valmistuttua, pura zip-paketti valitsemallasi tiedostonhallintasovelluksella kansioon nimeltä backtrack muistikorttisi(sdcard) juuressa (siellä pitäisi olla kaksi tiedostoa, backtrack.img and backtrack.img.md5)\n\nVoit nyt käynnistää Backtrackin joko Käynnistä-valikosta tai luomalla Käynnistä Backtrack -widgetin kotiruudullesi ja painamalla sitä.\n\nAsetuksia, kuten näytön tarkkuuden, voi määrittää Käynnistä-valikossa (tämän sovelluksen aloitusruudulla).\n\nHetken kuluttua näytöllä pitäisi näkyä viesti root@localhost:/#. Mikäli kyseinen teksti näkyy, on Backtrack käynnissä joten paina Seuraava.\nJos viesti ei näy, tarkista että sinulla on root-oikeudet ja ydin (kernel) joka tukee loop devices -ominaisuutta. Mikäli ongelmia silti ilmenee, tarkista UKK-osio.</string>
-	<string name="backtrack_install_page4">Pääte käyttäytyy nyt kuten Backtrackin komentokehote, ottaaksesi yhteyden graafiseen käyttöliittymään käynnistä VNC viewer -sovellus.\nAseta IP-osoitteeksesi localhost ja portiksi numero 5900, syötä salasana backtrack ja paina Yhdistä (Connect) jolloin graafinen käyttöliittymä käynnistyy.\n\n\nHUOM! Kun lopetat Backtrackin käytön, kirjoita komentorivillä exit ja odota että kaikki sammuu.</string>
+	<string name="backtrack_install_page2">Aloitetaan lataamalla Backtrack levykuvatiedosto.</string>
+	<string name="backtrack_install_page3">Latauksen valmistuttua, pura zip-paketti valitsemallasi tiedostonhallintasovelluksella kansioon nimeltä backtrack muistikorttisi(sdcard) juuressa (siellä pitäisi olla kaksi tiedostoa, backtrack.img and backtrack.img.md5)\n\nVoit nyt käynnistää Backtrackin joko Käynnistä-valikosta tai luomalla Käynnistä Backtrack -widgetin kotiruudullesi ja painamalla sitä.\n\nAsetuksia, kuten näytön tarkkuuden, voi määrittää Käynnistä-valikossa (jos sinulla on lahjoitusavain), Huom! Jos levykuva ei ole hakemistossa /sdcard/backtrack/backtrack.img sinun täytyy muuttaa tiedostosijainti käynnistimessä (Valitse Asetukset valikosta Muokkaa).\n\n Hetken kuluttua näytöllä pitäisi näkyä viesti root@localhost:/#Mikäli kyseinen teksti näkyy, on Backtrack käynnissä joten valitse seuraava välilehti.\nJos viesti ei näy, tarkista että sinulla on root-oikeudet ja ydin (kernel) joka tukee loop devices -ominaisuutta. Mikäli ongelmia silti ilmenee, tarkista UKK-osio.</string>
+	<string name="backtrack_install_page4">Pääte käyttäytyy nyt kuten Backtrackin komentokehote, ottaaksesi yhteyden graafiseen käyttöliittymään käynnistä VNC viewer -sovellus.\n Aseta IP-osoitteeksesi localhost ja portiksi numero 5900, syötä salasana backtrac ja paina Yhdistä, jolloin graafinen käyttöliittymä käynnistyy.\n\n\nHUOM! Kun lopetat Backtrackin käytön, kirjoita komentorivillä exit ja odota että kaikki sammuu.</string>
 
 	<!-- Strings for Debian install guide -->
-	<string name="debian_download_Script">Lataa käynnistysskripti</string>
-	<string name="debian_download_menu_button">Lataa levykuva</string>
-	<string name="debian_download_Large">Lataa suuri levykuva</string>
-	<string name="debian_download_Small">Lataa pieni levykuva</string>
-	<string name="debian_download_Core">Lataa riisuttu levykuva</string>
-
-	<string name="debian_install_page1">Ennen aloittamista, sinulla TÄYTYY olla root-oikeudet sekä ydin (kernel) joka tukee Loop Devices -toimintoa. Tämä toimii parhaiten kevyillä rom-tiedostoilla, jotka jättävät vapaaksi enemmän keskusmuistia Debianin käyttöön.\n\nVarmista myös, että debug-tila on käytössä menemällä Asetukset->Sovellukset->Kehittäjä ja varmista että vaihtoehto USB-vianetsintä (USB Debugging) on valittuna.\n\nSuurta levykuvaa varten tarvitaan vapaata levytilaa vähintään 3,5GB\n\nJos kaikki vaatimukset täyttyvät, paina Seuraava. Mikäli ne eivät täyty, asennus ei onnistu.</string>
 	<string name="debian_install_page2">Aloitetaan lataamalla Debianin levykuvatiedosto.</string>
-	<string name="debian_install_page3">Latauksen valmistuttua, pura zip-paketti valitsemallasi tiedostonhallintasovelluksella kansioon nimeltä debian muistikorttisi(sdcard) juuressa (siellä pitäisi olla kaksi tiedostoa, debian.img and debian.img.md5)\n\nVoit nyt käynnistää Debianin joko Käynnistä-valikosta tai luomalla Käynnistä Debian -widgetin kotiruudullesi ja painamalla sitä.\n\nAsetuksia, kuten näytön tarkkuuden, voi määrittää Käynnistä-valikossa (tämän sovelluksen aloitusruudulla).\n\nHetken kuluttua näytöllä pitäisi näkyä viesti root@localhost:/#. Mikäli kyseinen teksti näkyy, on Debian käynnissä joten paina Seuraava.\nJos viesti ei näy, tarkista että sinulla on root-oikeudet ja ydin (kernel) joka tukee loop devices -ominaisuutta. Mikäli ongelmia silti ilmenee, tarkista UKK-osio.</string>
-	<string name="debian_install_page4">Pääte käyttäytyy nyt kuten Debianin komentokehote, ottaaksesi yhteyden graafiseen käyttöliittymään käynnistä VNC viewer -sovellus.\nAseta IP-osoitteeksesi localhost ja portiksi numero 5900, syötä salasana debian ja paina Yhdistä (Connect) jolloin graafinen käyttöliittymä käynnistyy.\n\n\nHUOM! Kun lopetat Debianin käytön, kirjoita komentorivillä exit ja odota että kaikki sammuu.</string>
+	<string name="debian_install_page3">Latauksen valmistuttua, pura zip-paketti valitsemallasi tiedostonhallintasovelluksella kansioon nimeltä debian muistikorttisi(sdcard) juuressa (siellä pitäisi olla kaksi tiedostoa, debian.img and debian.img.md5)\n\nVoit nyt käynnistää Debianin joko Käynnistä-valikosta tai luomalla Käynnistä Debian -widgetin kotiruudullesi ja painamalla sitä.\n\nAsetuksia, kuten näytön tarkkuuden, voi määrittää Käynnistä-valikossa (jos sinulla on lahjoitusavain), Huom! Jos levykuva ei ole hakemistossa /sdcard/debian/debian.img sinun täytyy muuttaa tiedostosijainti käynnistimessä (Valitse Asetukset valikosta Muokkaa).\n\n Hetken kuluttua näytöllä pitäisi näkyä viesti root@localhost:/#Mikäli kyseinen teksti näkyy, on Debian käynnissä joten valitse seuraava välilehti.\nJos viesti ei näy, tarkista että sinulla on root-oikeudet ja ydin (kernel) joka tukee loop devices -ominaisuutta. Mikäli ongelmia silti ilmenee, tarkista UKK-osio.</string>
+	<string name="debian_install_page4">Pääte käyttäytyy nyt kuten Debianin komentokehote, ottaaksesi yhteyden graafiseen käyttöliittymään käynnistä VNC viewer -sovellus.\nAseta IP-osoitteeksesi localhost ja portiksi numero 5900, syötä salasana debian ja paina Yhdistä, jolloin graafinen käyttöliittymä käynnistyy.\n\n\nHUOM! Kun lopetat Debianin käytön, kirjoita komentorivillä exit ja odota että kaikki sammuu.</string>
 	<string name="debian_image_description">Valittavana on kolme levykuvaa, riisuttu, pieni sekä suuri.\n\nRiisuttu levykuva on ladattessa kooltaan 200MB, purettuna 750MB ja sisältää vain välttämättömän Debianin käyttämiseksi, mukana ei tule graafista käyttöliittymää.\n\nPieni levykuva on ladattaessa kooltaan n. 600MB, purettuna 2GB ja sisältää XFCE työpöydän sekä perusohjelmat.\n\nSuuri levykuva on ladattaessa kooltaan n. 1GB, purettuna 3,5GB ja sisältää XFCE työpöydän sekä laajan valikoiman ohjelmia, kuten Open Officen.</string>
 
+	<!--  Strings for the Archlinux install guide -->
+	<string name="beta_text">Tämä jakelu on BETA-versio.\n\nSaadaksesi pääsyn Beta-testiin, ole hyvä ja osta lahjoitusavain (donation key)\n\n Jakelun vakaa versio tulee saataville kaikille</string>
+	<string name="arch_install_page2">Aloitetaan lataamalla Archlinux levykuvatiedosto.</string>
+	<string name="arch_install_page3">Latauksen valmistuttua, pura zip-paketti valitsemallasi tiedostonhallintasovelluksella kansioon nimeltä debian muistikorttisi(sdcard) juuressa (siellä pitäisi olla kaksi tiedostoa, archlinux.img and archlinux.img.md5)\n\nVoit nyt käynnistää Archlinuxin joko Käynnistä-valikosta tai luomalla Käynnistä Archlinux -widgetin kotiruudullesi ja painamalla sitä.\n\nAsetuksia, kuten näytön tarkkuuden, voi määrittää Käynnistä-valikossa (jos sinulla on lahjoitusavain), Huom! Jos levykuva ei ole hakemistossa /sdcard/archlinux/archlinux.img sinun täytyy muuttaa tiedostosijainti käynnistimessä (Valitse Asetukset valikosta Muokkaa).\n\n Hetken kuluttua näytöllä pitäisi näkyä viesti root@localhost:/#Mikäli kyseinen teksti näkyy, on Archlinux käynnissä joten valitse seuraava välilehti.\nJos viesti ei näy, tarkista että sinulla on root-oikeudet ja ydin (kernel) joka tukee loop devices -ominaisuutta. Mikäli ongelmia silti ilmenee, tarkista UKK-osio.</string>
+	<string name="arch_install_page4">Pääte käyttäytyy nyt kuten Archlinuxin komentokehote, ottaaksesi yhteyden graafiseen käyttöliittymään käynnistä VNC viewer -sovellus.\n Aseta IP-osoitteeksesi localhost ja portiksi numero 5900, syötä salasana backtrac ja paina Yhdistä, jolloin graafinen käyttöliittymä käynnistyy.\n\n\nHUOM! Kun lopetat Archlinuxin käytön, kirjoita komentorivillä exit ja odota että kaikki sammuu.</string>
+	<string name="arch_image_description">HUOM! TÄMÄ ON BETA_VAIHEESSA, tarkista muutosloki tunnettujen ongelmien varalta\n\nValittavana on kolme levykuvaa, riisuttu, pieni sekä suuri.\n\nRiisuttu levykuva on ladattessa kooltaan 300MB, purettuna 750MB ja sisältää vain välttämättömän Archlinuxin käyttämiseksi, mukana ei tule graafista käyttöliittymää.\n\nPieni levykuva on ladattaessa kooltaan n. 300MB, purettuna 2GB ja sisältää LXDE työpöydän ja perusohjelmat.\n\nSuuri levykuva on ladattaessa kooltaan n. 1.6GB, purettuna 3,5GB ja sisältää KDE työpöydän.</string>
+    
 	<!-- Strings used in the download type selector dialog -->
 	<string name="dialog_select_donwload_type_title">Valitse lataustapa</string>
 	<string name="dialog_select_donwload_type_description">Ole hyvä ja valitse lataustapa, voit ladata joko torrent-tiedoston tai suoraan Sourceforgesta.</string>
 	<string name="dialog_button_torrent">Torrent-tiedosto</string>
 	<string name="dialog_button_sourceforge">Sourceforgesta</string>
 	<string name="dialog_button_cancel_download">Peruuta lataus</string>
-
-	<!-- Strings for the build guides -->
-	<string name="buildGuides_Intro">Nämä oppaat auttavat Sinua kokoamaan oman Linux-jakelusi.\n\nNämä metodit vaihtelevat jakelusta riippuen, joten lue haluamallesi jakelulle tarkoitettua opasta!</string>
-	<string name="btn_BuildGuide_Ubuntu">Ubuntun koontiopas</string>
 
 	<!-- Strings for the tips -->
 	<string name="tips_text">Hidasteleeko Linuxisi?\n\nKoska Linuxia ajetaan tässä tapauksessa Androidin päällä, voi Linux tästä johtuen hidastella melkoisesti. Voit koettaa helpottaa tilannetta ylikellottamalla prosessoria (Huom! Omalla vastuulla!) tai mahdollisesti käyttämällä laitteessa kevyempää ROM-tiedostoa (esim. AOSP ROM), jolloin keskusmuistia jää enemmän vapaaksi muuhun käyttöön</string>
@@ -125,20 +115,17 @@ Thanks for your help, zacthespack & tuxling.
 	<string name="changelog_button_scriptlog">Skriptien muutosloki</string>
 
 	<!-- Strings for the FAQ -->
-	<string name="FAQ_intro">Mitä ovat Ubuntu/Backtrack/Debian?\nUbuntu/Backtrack/Debian ovat linux-pohjaisia, yleensä tietokoneelle tarkoitettuja käyttöjärjestelmiä. Tämän sovituksen avulla niitä voidaan ajaa puhelimessa ja tämän myötä jotakuinkin kaikkia linuxille saatavia ohjelmia voidaan ajaa myös puhelimessa.\n\nVoinko päivittää Ubuntun/Backtrackin/Debianin?\nEt itse käyttöjärjestelmäversiota, sillä yrittäessäsi päivittää sitä se rikkoutuu, mutta voit päivittää ohjelmia sekä paketteja.\n\nParhaat asetukset Androidin VNC Vieweriin?\n Täysi 24-bitin väripaletti (Full 24-bit colour) toimii hyvin, pienillä näytöillä Syöttötapana (Input Method) kannattaa käyttää touchpad-tilaa tilanpuutteesta johtuen. Touchpad-tilassa näyttö toimii kuten touchpad kannettavassa tietokoneessa, joten sitä on erittäin helppo käyttää\n\nUbuntu/Backtrack/Debian ei asennu\nMikäli Ubuntu/Backtrack/Debian ei asennu, ole hyvä ja tarkista olevaa nappia painamalla lista tuetuista laitteista/ytimistä(kernel)/android-versioista jotka toimivat/eivät toimi. Mikäli laitteesi ei ole listalla, lähetä sähköpostia minulle kertoen laitteesi merkin ja mallin, kernelin sekä Android-version ja vastaan mahdollisimman pian.</string>
+	<string name="FAQ_intro">Mitä ovat Ubuntu/Backtrack/Debian?\nUbuntu/Backtrack/Debian ovat linux-pohjaisia, yleensä tietokoneelle tarkoitettuja käyttöjärjestelmiä. Tämän sovituksen avulla niitä voidaan ajaa puhelimessa ja tämän myötä jotakuinkin kaikkia linuxille saatavia ohjelmia voidaan ajaa myös puhelimessa.\n\nVoinko päivittää Ubuntun/Backtrackin/Debianin?\nEt itse käyttöjärjestelmäversiota, sillä yrittäessäsi päivittää sitä se rikkoutuu, mutta voit päivittää ohjelmia sekä paketteja.\n\nParhaat asetukset Androidin VNC Vieweriin?\n Täysi 24-bitin väripaletti (Full 24-bit colour) toimii hyvin, pienillä näytöillä Syöttötapana (Input Mode) kannattaa käyttää touchpad-tilaa tilanpuutteesta johtuen. Touchpad-tilassa näyttö toimii kuten touchpad kannettavassa tietokoneessa, joten sitä on erittäin helppo käyttää\n\nUbuntu/Backtrack/Debian ei asennu\nMikäli Ubuntu/Backtrack/Debian ei asennu, ole hyvä ja tarkista alla olevaa nappia painamalla lista tuetuista laitteista/ytimistä(kernel)/android-versioista jotka toimivat/eivät toimi. Mikäli laitteesi ei ole listalla, lähetä sähköpostia minulle kertoen laitteesi merkin ja mallin, kernelin sekä Android-version ja vastaan mahdollisimman pian.</string>
 	<string name="FAQ_WorkingDevices">Toimivat laitteet</string>
 	<string name="FAQ_WhatCanIDo">Mitä voin tehdä Ubuntun/Backtrackin/Debianin avulla?\nSuuren levykuvan mukana tulee laaja valikoima ohjelmistoja, kuten Open Office ja Firefox, sekä monia muita työpöytäohjelmia joiden avulla Android-laitteesi voi toimia kokonaisena työpöytäkoneena! Voit myös asentaa muita Linux-ohjelmia joista on olemassa ARM-versio tai jotka eivät ole arkkitehtuuririippuvaisia.</string>
 
 	<!-- The about text -->
-	<string name="about_intro"> Tämä projekti alkoi siitä, kun sain Ubuntun käynnistymään Desire S-puhelimessani ja on laajentunut huimasti!\n\nNyt projektin tavoitteena on tehdä Ubuntun asentamisesta ja käyttämisestä niin helppoa kuin mahdollista ja mahdollistaa sen käyttö niin monessa laitteessa kuin mahdollista. Uskon että version 2.0 myötä olen onnistunut tekemään siitä mahdollisimman helppoa, mutta vain aika näyttää.\n\nTiimi:\nZachary Powell (zacthespack)\nMartin Møller (tuxling)\n\nKääntäjät:\nEnglish - Zachary Powell (zacthespack)\nDanish - Martin Møller (tuxling)\nFinnish - Juha (norppa)</string>
-
-	<!-- The search text -->
-	<string name="search_intro">Tämän ominaisuuden avulla voit tarkistaa tukeeko laitteesi ROM/kernel Ubuntua, mutta koska siihen käytettävä tietokanta ei ole vielä valmis, tämä toiminto ei ole vielä käytössä!</string>
+	<string name="about_intro">Tämä projekti alkoi siitä, kun sain Ubuntun käynnistymään Desire S-puhelimessani ja on laajentunut huimasti!\n\nNyt projektin tavoitteena on tehdä Ubuntun asentamisesta ja käyttämisestä niin helppoa kuin mahdollista ja mahdollistaa sen käyttö niin monessa laitteessa kuin mahdollista.\n\nTiimi:\nZachary Powell (zacthespack)\nMartin Møller (tuxling)\n\nKääntäjät:\nEnglish - Zachary Powell (zacthespack)\nDanish - Martin Møller (tuxling)\nFinnish - Juha (norppa)</string>
 
 	<!-- Strings for the launcher -->
-	<string name="Launcher_Intro">Tämä on päivitetty yhden-klikkauksen ratkaisu Linuxin käynnistämiseksi, enää ei tarvitse syöttää komentoja päätteeseen joka kerralla (kuten aiemmin ilmaisversioissa).\n\nPaina laitteesi valikkonäppäintä muokataksesi esiasetettuja tiedostopolkuja osoittamaan kansioon johon tallensit tiedostot.\nVoit käynnistää minkä tahansa Linux-jakeluista joko tästä sovelluksesta tai asettamalla kotiruudulle widgetin (joka kysyy ensimmäisellä käyttökerralla tiedostojen sijaintia).\n\nTämän uuden ja huimasti parannetun yhden klikkauksen käynnistysjärjestelmän on suunnitellut ja koodannut Martin Møller</string>
+	<string name="Launcher_Intro">Tämä on yhden-klikkauksen ratkaisu Linuxin käynnistämiseksi.\n\nPaina laitteesi valikkonäppäintä muokataksesi esiasetettuja tiedostopolkuja osoittamaan kansioon johon tallensit tiedostot.\nVoit käynnistää minkä tahansa Linux-jakeluista joko tästä sovelluksesta tai asettamalla kotiruudulle widgetin (joka kysyy ensimmäisellä käyttökerralla tiedostojen sijaintia).\n\nTämän uuden ja huimasti parannetun yhden klikkauksen käynnistysjärjestelmän on suunnitellut ja koodannut Martin Møller</string>
 	<string name="Launcher_Intro_Warning">Varoitus!Tässä profiilissa määritettyä levykuvaa ei ole olemassa! Ole hyvä ja vaihda levykuvan nimi käyttäen valikko-painiketta.</string>
-		<string name="toast_warning_image_not_found">Varoitus! Tässä profiilissa määritettyä levykuvaa ei ole olemassa!</string>
+	<string name="toast_warning_image_not_found">Varoitus! Tässä profiilissa määritettyä levykuvaa ei ole olemassa! (Tämä voi tarkoittaa että valitsemasi levykuva on eri sijainnissa!)</string>
 
 	<string name="toolbox_TitleText">Ole hyvä ja valitse alapuolelta Linux-jakelu käynnistääksesi sen tai muuttaaksesi asetuksia.</string>
 	<string name="button_Configure">Konfiguroi Linux</string>
@@ -151,6 +138,13 @@ Thanks for your help, zacthespack & tuxling.
 	<string name="menu_OpenFolder">Avaa hakemisto</string>
 	<string name="hint_EnterName">Syötä nimi tähän</string>
 	<string name="inputLabel_Name">Nimi</string>
+	<string name="menu_reinstallbusybox">Asenna Busybox uudelleen</string>
+	
+	<string name="launcer_ImageAlreadyMounted">Toinen levykuva on jo liitetty, haluatko chrootata levykuvaan nyt?</string>
+	<string name="launcer_StartAborted">Ei käynnistetty!</string>
+	
+	<string name="terminal_error">Päätesovellusta (terminal) ei löydy!\nOle hyvä ja varmista että laitteeseen on asennettu sopiva päätesovellus kuten asennusoppaassa neuvotaan.\n\nMikäli päätesovellus tuli esiasennettuna ROM-tiedoston mukana, sinun täytyy poistaa kyseinen versio ja asentaa se Google Play-sovelluskaupasta.</string>
+	
 
 	<!-- Config editor strings -->
 	<string name="title_ConfigureLinux">Konfiguroi</string>
@@ -209,12 +203,19 @@ Thanks for your help, zacthespack & tuxling.
 
 	<string name="mounts_editor_popup_hint_linux_path">Syötä Linux-hakemisto</string>
 	<string name="mounts_editor_popup_hint_android_path">Jaettava Android-hakemisto</string>
+	
+	<string name="check_box_swap">Luo 1GB SWAP tiedosto</string>
+	
 
+	<!-- Autoboot strings -->
+	<string name="title_ConfigureAutoRun">Auto Run Asetukset</string>
+    <string name="menu_AutoRunConfig">Auto Run Asetukset</string>
+    <string name="autorun_config_intro">Tässä voit määrittää Androidin käynnistyksen yhteydessä automaattisesti käynnistyvän levykuvan</string>
+    <string name="autorun_config_checkbox_text">Auto run päällä</string>
+    <string name="autorun_config_label_text_image">Levykuvan nimi</string>
 
 	<!--Strings for the widgets -->
-	<string name="widget_name_debian">Yhden-klikin käynnistys Debian</string>
-	<string name="widget_name_backtrack">Yhden-klikin käynnistys Backtrack</string>
-	<string name="widget_name_ubuntu">Yhden-klikin käynnistys Ubuntu</string>
+	<string name="widget_name_linux">Yhden-klikin käynnistys Linux</string>
 
 	<string name="widget_toast_image_not_found">Levykuvaa ei löytynyt!</string>
 
@@ -222,46 +223,9 @@ Thanks for your help, zacthespack & tuxling.
 	<string name="cfg_Label_ImagePath">Levykuvan nimi koko tiedostopolun kanssa</string>
 	<string name="cfg_Label_Path">Polku</string>
 	<string name="cfg_Label_ScriptName">Skriptin nimi</string>
-	<string name="cfg_Label_Description">Ole hyvä ja syötä täydellinen Linux levykuvan nimi sisältäen ylläolevan tiedostopolun.\n(Tämä täytyy tehdä vain tämän yhden kerran)</string>
+	<string name="cfg_Label_Description">Ole hyvä ja syötä täydellinen Linux levykuvan nimi sisältäen ylläolevan tiedostopolun.\n(Tämä täytyy tehdä vain kerran)</string>
 
-	<!-- These are used as activities titles -->
-	<string name="content_Description_dummy"></string>
-	<string name="content_Description_logo">Täydellinen Linux asennusohjelma</string>
-	<string name="content_Description_about">Tietoa</string>
-	<string name="content_Description_home">Aloitusvalikko</string>
-	<string name="content_Description_search">Etsi</string>
-	<string name="content_Description_feature1">Asennusoppaat</string>
-	<string name="content_Description_feature2">Koontioppaat (Build Guides)</string>
-	<string name="content_Description_feature3">Vinkit</string>
-	<string name="content_Description_feature4">Usein Kysytyt Kysymykset (UKK)</string>
-	<string name="content_Description_feature5">Muutoslokit</string>
-	<string name="content_Description_feature6">Käynnistä</string>
-	
-	<!-- License checking status messages -->
-    <string name="check_license">Tarkista lisenssi</string>
-    <string name="checking_license">Tarkistetaan lisenssiä</string>
-    <string name="dont_allow">Älä salli käyttäjän pääsyä</string>
-    <string name="allow">Salli käyttäjän pääsy</string>
-    <string name="application_error">Sovellusvirhe: %1$s</string>
-
-    <!-- Unlicensed dialog messages -->
-    <string name="unlicensed_dialog_title">Lisensoimaton sovellus</string>
-    <string name="unlicensed_dialog_body">Tämä sovellus ei ole lisensoitu. Ole hyvä ja hanki se Google Play:sta.</string>
-    <string name="unlicensed_dialog_retry_body">Lisenssin oikeellisuutta ei voitu tarkastaa. Varmista että käytössäsi on toimiva verkkoyhteys.</string>
-    <string name="buy_button">Osta sovellus</string>
-    <string name="retry_button">Yritä uudelleen</string>
-    <string name="quit_button">Poistu</string>
-
-	<!-- Strings not shown to normnal users, don't need to be translated! -->
-	<string name="code_error_text">IF YOU SEE THIS WE MADE AN ERROR IN THE APP, PLEASE LET US KNOW!</string>
-
-    <string name="title_ConfigureAutoRun">Auto Run Settings</string>
-    <string name="menu_AutoRunConfig">Auto Run Settings</string>
-    <string name="autorun_config_intro">Here you can set a image to automaticly start when Android boots.</string>
-    <string name="autorun_config_checkbox_text">Auto run enabled</string>
-    <string name="autorun_config_label_text_image">Image Name</string>
-
-	<!-- Strings added 05/06-2012 -->
+	<!-- Strings for Updater -->
 	<string name="title_ScriptUpdater">Päivitä skriptit</string>
 	<string name="menu_UpdateScripts">Päivitä skriptit</string>
 	<string name="updater_BootIntro">Käynnistysskriptit, tätä skriptiä käyttävät ohjelmankäynnistysvalikko sekä widgetit</string>
@@ -272,30 +236,11 @@ Thanks for your help, zacthespack & tuxling.
 	<string name="updater_Label_OnlineAutoBoot">Viimeisin:</string>
 	<string name="updater_btn_UpdateBootScript">Päivitä käynnistysskripti</string>
 	<string name="updater_btn_UpdateAutoBootScript">Päivitä Automaattinen käynnistys -skripti</string>
-
-	<!-- Strings added 08/06-2012 -->
-	<string name="launcer_ImageAlreadyMounted">Toinen levykuva on jo liitetty, haluatko chrootata levykuvaan nyt?</string>
-	<string name="launcer_StartAborted">Ei käynnistetty!</string>
 	<string name="updater_ErrorGettingVersions">Versiotietojen lataaminen palvelimelta epäonnistui, tarkista internet-yhteytesi ja yritä uudelleen!</string>
 	<string name="updater_ErrorDownloadingFile">Tiedoston lataaminen palvelimelta epäonnistui, tarkista internet-yhteytesi ja yritä uudelleen!</string>
 	<string name="updater_Btn_Ok">OK</string>
-	
-	<!-- Strings added 16/07-2012 -->
-	<string name="installGuide_Menu_ArchLinux">ArchLinux</string>
-	<string name="installGuide_Menu_Fedora">Fedora 17</string>
-	<string name="installGuide_Menu_openSUSE">openSUSE 12</string>
-	<string name="comings_soon_text">Nämä jakelut tulevat pian!\n\n Lahjoittajat saavat testiversiot ensin (ne avataan ilmaiseen sovellukseen kun ovat vakaat)</string>
-	<string name="terminal_error">Päätesovellusta (terminal) ei löydy!\nOle hyvä ja varmista että laitteeseen on asennettu sopiva päätesovellus kuten asennusoppaassa neuvotaan.\n\nMikäli päätesovellus tuli esiasennettuna ROM-tiedoston mukana, sinun täytyy poistaa kyseinen versio ja asentaa se Google Play-sovelluskaupasta.</string>
-	
-    <!--  Strings added 16/08-2012 -->
-    <string name="check_box_swap">Luo 1GB SWAP tiedosto</string>
-    <string name="beta_text">Tämä jakelu on tällä hetkellä BETA-testattavana\n\nSaadaksesi pääsyn betaan, ole hyvä ja lahjoita niin saat avainkoodin\n\nKun jakelu on vakaa, sen käyttö sallitaan kaikille</string>
-	
-	<string name="arch_install_page1">Ennen aloittamista, sinulla TÄYTYY olla root-oikeudet sekä ydin (kernel) joka tukee Loop Devices -toimintoa. Tämä toimii parhaiten kevyillä rom-tiedostoilla, jotka jättävät vapaaksi enemmän keskusmuistia Debianin käyttöön.\n\nVarmista myös, että debug-tila on käytössä menemällä Asetukset->Sovellukset->Kehittäjä ja varmista että vaihtoehto USB-vianetsintä (USB Debugging) on valittuna.\n\nSuurta levykuvaa varten tarvitaan vapaata levytilaa vähintään 3,5GB\n\nJos kaikki vaatimukset täyttyvät, paina Seuraava. Mikäli ne eivät täyty, asennus ei onnistu.</string>
-	<string name="arch_install_page2">Aloitetaan lataamalla Archlinuxin levykuvatiedosto.</string>
-	<string name="arch_install_page3">Latauksen valmistuttua, pura zip-paketti valitsemallasi tiedostonhallintasovelluksella kansioon nimeltä archlinux muistikorttisi(sdcard) juuressa (siellä pitäisi olla kaksi tiedostoa, archlinux.img and archlinux.img.md5)\n\nVoit nyt käynnistää Archlinuxin joko Käynnistä-valikosta tai luomalla Käynnistä Archlinux -widgetin kotiruudullesi ja painamalla sitä.\n\nAsetuksia, kuten näytön tarkkuuden, voi määrittää Käynnistä-valikossa (tämän sovelluksen aloitusruudulla).\n\nHetken kuluttua näytöllä pitäisi näkyä viesti root@localhost:/#. Mikäli kyseinen teksti näkyy, on Archlinux käynnissä joten paina Seuraava.\nJos viesti ei näy, tarkista että sinulla on root-oikeudet ja ydin (kernel) joka tukee loop devices -ominaisuutta. Mikäli ongelmia silti ilmenee, tarkista UKK-osio.</string>
-	<string name="arch_install_page4">Pääte käyttäytyy nyt kuten Archlinuxin komentokehote, ottaaksesi yhteyden graafiseen käyttöliittymään käynnistä VNC viewer -sovellus.\nAseta IP-osoitteeksesi localhost ja portiksi numero 5900, syötä salasana archlinux ja paina Yhdistä (Connect) jolloin graafinen käyttöliittymä käynnistyy.\n\n\nHUOM! Kun lopetat Archlinuxin käytön, kirjoita komentoriville exit ja odota että kaikki sammuu.</string>
-	<string name="arch_image_description">HUOM. NÄMÄ OVAT BETA-VAIHEESSA. Tarkista muutosloki tunnettujen ongelmien varalta.\n\nValittavana on kolme levykuvaa, riisuttu, pieni sekä suuri.\n\nRiisuttu levykuva on ladattessa kooltaan 300MB, purettuna 750MB ja sisältää vain välttämättömän Archlinuxin käyttämiseksi, mukana ei tule graafista käyttöliittymää.\n\nPieni levykuva on ladattaessa kooltaan n. 300MB, purettuna 2GB ja sisältää LXDE työpöydän sekä perusohjelmat.\n\nSuuri levykuva on ladattaessa kooltaan n. 1,6GB, purettuna 3,5GB ja sisältää graafisen KDE käyttöliittymän.</string>
-    
 
+	<!-- Strings not shown to normnal users, don't need to be translated! -->
+	<string name="code_error_text">IF YOU SEE THIS WE MADE AN ERROR IN THE APP, PLEASE LET US KNOW!</string>
+	
 </resources>

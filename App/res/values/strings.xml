@@ -22,33 +22,30 @@ Thanks for your help, zacthespack & tuxling.
 -->
 
 <resources>
-	<string name="hello">Choose one of the features below.</string>
 	<string name="app_name">Complete Linux Installer</string>
 
 	<!-- Strings used more than one place -->
 	<string name="title_about">About</string>
-	<string name="title_home">Home</string>
-	<string name="title_search">Search</string>
-
+	
 	<string name="button_back">Back</string>
-	<string name="button_next">Next</string>
-	<string name="button_finished">Finished</string>
 
 	<string name="download_VNC">Download/Install VNCViewer App</string>
 	<string name="download_Term">Download/Install Terminal App</string>
 	<string name="download_sourceforge">Download from sourceforge</string>
 	<string name="download_Torrent">Download torrent file</string>
-
+    
+    <string name="install_page1">Before we start you MUST have Root and a kernel that supports loop devices. This works best on lighter roms that give you more free memory to run Linux smoothly.\n\nAlso make sure that you have debugging mode enabled Go to Settings->Applications->Development and make sure USB Debugging is checked ON.\n\nYou will also need free space on your sdcard to fit the image file.\n\nIf you have all of this please select the next tab, otherwise you will not be able to install Linux on your device</string>
 	<string name="install_apps_text">Now while this is downloading, download and install the terminal app and vncviewer app if you have not already</string>
-	<string name="after_install_text">Once you have downloaded the Linux package and installed both apps press NEXT</string>
+	<string name="after_install_text">Once you have downloaded the Linux package and installed both apps go to the next tab</string>
 
-	<!-- Front page buttons -->
+	<!-- Side Menu buttons -->
 	<string name="frontpage_btn_InstallGuides">Install Guides</string>
-	<string name="frontpage_btn_BuildGuides">Build Guides</string>
 	<string name="frontpage_btn_Tips">Tips</string>
 	<string name="frontpage_btn_FAQ">FAQ</string>
 	<string name="frontpage_btn_Changelog">Change Logs</string>
 	<string name="frontpage_btn_Launch">Launch</string>
+	<string name="frontpage_btn_news">News feed</string>
+	<string name="frontpage_btn_about">About</string>
 
 	<!-- Strings used on the install guides main menu -->
 	<string name="installGuide_Menu_Intro">These are the install guides for the range of supported Linux distros.</string>
@@ -56,54 +53,66 @@ Thanks for your help, zacthespack & tuxling.
 	<string name="installGuide_Menu_Ubuntu12">Ubuntu 12 Install Guide</string>
 	<string name="installGuide_Menu_Backtrack">Backtrack Install Guide</string>
 	<string name="installGuide_Menu_Debian">Debian Install Guide</string>
-
+	<string name="installGuide_Menu_ArchLinux">ArchLinux</string>
+	<string name="installGuide_Menu_Fedora">Fedora 17</string>
+	<string name="installGuide_Menu_Kali">Kali Linux</string>
+	<string name="installGuide_Menu_openSUSE">openSUSE 12</string>
+	<string name="comings_soon_text">This Distros will be coming soon!\n\nThose with donation keys will get test versions first (they will be unlocked to the free app once stable)</string>
+	
+	<string name="debian_guide">Install Debian</string>
+	<string name="backtrack_guide">Install Backtrack</string>
+	<string name="archlinux_guide">Install Archlinux</string>
+	<string name="ubuntu10_guide">Install Ubuntu 10.10</string>
+	<string name="ubuntu12_guide">Install Ubuntu 12.04</string>
+	<string name="fedora_guide">Install Fedora</string>
+	<string name="kali_guide">Install Kali</string>
+	
+	
+	<!-- Strings for all download guides -->
+	<string name="download_menu_button">Download Image</string>
+	<string name="download_Large">Download Large Image</string>
+	<string name="download_Small">Download Small Image</string>
+	<string name="download_Core">Download Core Image</string>
+	
 	<!-- Strings for ubuntu 10 install guide -->
-	<string name="ubuntu10_download_Script">Download Boot Script</string>
-	<string name="ubuntu10_download_menu_button">Download Ubuntu Image</string>
-	<string name="ubuntu10_download_Large">Download Large Ubuntu Image</string>
-	<string name="ubuntu10_download_Small">Download Small Ubuntu Image</string>
-
-	<string name="ubuntu10_install_page1">Before we start you MUST have Root and a kernel that supports loop devices. This works best on lighter roms that give you more free memory to run Ubuntu smoothly.\n\nAlso make sure that you have debugging mode enabled Go to Settings->Applications->Development and make sure USB Debugging is checked ON.\n\nYou will also need at least 3.5GB of memory card space for the large image and 2.5GB for the small image\n\nIf you have all of this please press NEXT, otherwise you will not be able to install Ubuntu on your device</string>
-	<string name="ubuntu10_install_page2">Lets start by downloading the Ubuntu image file. There are three images full, small and core. Large gives you a greater range of preinstalled programs while the small image is much less to download and more lightweight</string>
-	<string name="ubuntu10_install_page3">Once the download has finished you will now need to extract the zip folder using a file manager of your choice, extract this into a folder called ubuntu on the root of your sdcard (there should be two files ubuntu.img and ubuntu.img.md5)\n\nYou are now ready to boot Ubuntu, do this by either using the Launch menu item or place the boot Ubuntu widget on you home screen and click it.\n\nYou can set settings like screen size in the Launch menu (found on the main screen of the app).\n\n After a minute or two you should get this message root@localhost:/# if you do get this then Ubuntu is running please click NEXT.\nIf you don\'t please check you do have root and a kernel that supports loop devices, if you still have problems check the FAQ section</string>
-	<string name="ubuntu10_install_page4">The terminal will now act like a Ubuntu command line, to connect to the GUI run the VNC viewer app we have downloaded.\nSet your IP address to localhost and port number 5900 and enter the password ubuntu, then press connect and the GUI will render.\n\n\nNOTE when you are finished in Ubuntu you must type exit in the command line and then wait until everything shuts down.</string>
+	<string name="ubuntu10_install_page2">Lets start by downloading the Ubuntu image file. There are two images large, small and core.</string>
+	<string name="ubuntu_install_page3">Once the download has finished you will now need to extract the zip folder using a file manager of your choice, extract this into a folder called ubuntu on the root of your sdcard (there should be two files ubuntu.img and ubuntu.img.md5)\n\nYou are now ready to boot Ubuntu, do this by either using the Launch menu item or place the boot widget on you home screen and click it.\n\nYou can set settings like screen size in the Launch menu (if you have a donation key), Please note if your image is not in /sdcard/ubuntu/ubuntu.img you will need to change the location in the launcher (press the settings button then press edit).\n\n After a minute or two you should get this message root@localhost:/# if you do get this then Ubuntu is running please go to the next tab.\nIf you don\'t please check you do have root and a kernel that supports loop devices, if you still have problems check the FAQ section</string>
+	<string name="ubuntu_install_page4">The terminal will now act like a Ubuntu command line, to connect to the GUI run the VNC viewer app we have downloaded.\nSet your IP address to localhost and port number 5900 and enter the password ubuntu, then press connect and the GUI will render.\n\n\nNOTE when you are finished in Ubuntu you must type exit in the command line and then wait until everything shuts down.</string>
 	<string name="ubuntu10_image_description">The large image is 1.5GB to download and 3.5GB once extracted, it includes a wide range of programs from python to open office. There is around 1.5GB of free space for your own programs.\n\nThe small images is 500MB to download and 2.5GB once extracted, it includes only the basic apps required like a web browser and Java. There is around 1.5GB of free space for your own programs.</string>
 
 	<!-- Strings for ubuntu 12 install guide -->
-	<string name="ubuntu12_download_Script">Download Boot Script</string>
-	<string name="ubuntu12_download_menu_button">Download Ubuntu Image</string>
-	<string name="ubuntu12_download_Large">Download Large Ubuntu Image</string>
-	<string name="ubuntu12_download_Small">Download Small Ubuntu Image</string>
-	<string name="ubuntu12_download_Core">Download Core Ubuntu Image</string>
-
-	<string name="ubuntu12_install_page1">Before we start you MUST have Root and a kernel that supports loop devices. This works best on lighter roms that give you more free memory to run Ubuntu smoothly.\n\nAlso make sure that you have debugging mode enabled Go to Settings->Applications->Development and make sure USB Debugging is checked ON.\n\nYou will also need at least 3.5GB of memory card space for the large image and 2.5GB for the small image\n\nIf you have all of this please press NEXT, otherwise you will not be able to install Ubuntu on your device</string>
 	<string name="ubuntu12_install_page2">Lets start by downloading the Ubuntu image file. There are three images full, small and core. Click in the download button for info on each image</string>
-	<string name="ubuntu12_install_page3">Once the download has finished you will now need to extract the zip folder using a file manager of your choice, extract these into a folder called ubuntu on the root of your sdcard (there should be two files ubuntu.img and ubuntu.img.md5)\n\nYou are now ready to boot Ubuntu, do this by either using the Launch menu item or place the boot Ubuntu widget on you home screen and click it.\n\nYou can set settings like screen size in the Launch menu (found on the main screen of the app).\n\n After a minute or two you should get this message root@localhost:/# if you do get this then Ubuntu is running please click NEXT.\nIf you don\'t please check you do have root and a kernel that supports loop devices, if you still have problems check the FAQ section</string>
-	<string name="ubuntu12_install_page4">The terminal will now act like a Ubuntu command line, to connect to the GUI run the VNC viewer app we have downloaded.\nSet your IP address to localhost and port number 5900 and enter the password ubuntu, then press connect and the GUI will render.\n\n\nNOTE when you are finished in Ubuntu you must type exit in the command line and then wait until everything shuts down.</string>
 	<string name="ubuntu12_image_description">The Core image is 200MB to download and 750MB once extracted, it only includes the basic set up needed to run Ubuntu there is no GUI and about 400MB free space.\nThe Small image is 400MB to download and 2GB once extracted, it includes the LXDE desktop and basic programs like Firefox and leafpad and about 1GB free space.\nThe Full image is 1.3GB to download and 3.5GB once extracted, this include the Unity desktop and a range of programs, and about 1.1GB free space</string>
 
 	<!-- Strings for Backtrack install guide -->
-	<string name="backtrack_download_Script">Download Boot Script</string>
-	<string name="backtrack_download_Image">Download Backtrack Image</string>
-
-	<string name="backtrack_install_page1">Before we start you MUST have Root and a kernel that supports loop devices.\nThis works best on lighter roms that give you more free memory to run Backtrack smoothly\n\n\nAlso make sure that you have debugging mode enabled Go to Settings->Applications->Development and make sure USB Debugging is checked ON.\n\n\nYou will also need at least 3.5GB of memory card space for the large image\n\n\nIf you have all of this please press NEXT, otherwise you will not be able to install Backtrack on your device</string>
 	<string name="backtrack_install_page2">Lets start by downloading the Backtrack image file.</string>
-	<string name="backtrack_install_page3">Once the download has finished you will now need to extract the zip folder using a file manager of your choice, extract this into a folder called backtrack on the root of your sdcard (there should be two files backtrack.img and backtrack.img.md5)\n\nYou are now ready to boot Backtrack, do this by either using the Launch menu item or place the boot backtrack widget on your home screen and click it.\n\nYou can set settings like screen size in the Launch menu (found on the main screen of the app).\n\n After a minute or two you should get this message root@localhost:/# if you do get this then backtrack is running please click NEXT.\nIf you don\'t please check you do have root and a kernel that supports loop devices, if you still have problems check the FAQ section</string>
+	<string name="backtrack_install_page3">Once the download has finished you will now need to extract the zip folder using a file manager of your choice, extract this into a folder called backtrack on the root of your sdcard (there should be two files backtrack.img and backtrack.img.md5)\n\nYou are now ready to boot Backtrack, do this by either using the Launch menu item or place the boot widget on your home screen and click it.\n\nYou can set settings like screen size in the Launch menu (if you have a donation key), Please note if your image is not in /sdcard/backtrack/backtrack.img you will need to change the location in the launcher (press the settings button then press edit).\n\n After a minute or two you should get this message root@localhost:/# if you do get this then backtrack is running please go to the next tab.\nIf you don\'t please check you do have root and a kernel that supports loop devices, if you still have problems check the FAQ section</string>
 	<string name="backtrack_install_page4">The terminal will now act like a Backtrack command line, to connect to the GUI run the VNC viewer app we have downloaded.\n Set your IP address to localhost and port number 5900 and enter the password backtrac, then press connect and the GUI will render.\n\n\nNOTE when you are finished in backtrack you must type exit in the command line and then wait until everything shuts down.</string>
 
 	<!-- Strings for Debian install guide -->
-	<string name="debian_download_Script">Download Boot Script</string>
-	<string name="debian_download_menu_button">Download Image</string>
-	<string name="debian_download_Large">Download Large Image</string>
-	<string name="debian_download_Small">Download Small Image</string>
-	<string name="debian_download_Core">Download Core Image</string>
-
-	<string name="debian_install_page1">Before we start you MUST have Root and a kernel that supports loop devices.\nThis works best on lighter roms that give you more free memory to run Debian smoothly\n\nAlso make sure that you have debugging mode enabled Go to Settings->Applications->Development and make sure USB Debugging is checked ON.\n\nYou will also need at least 3.5GB of memory card space for the large image\n\nIf you have all of this please press NEXT, otherwise you will not be able to install Debian on your device</string>
 	<string name="debian_install_page2">Lets start by downloading a Debian image file.</string>
-	<string name="debian_install_page3">Once the download has finished you will now need to extract the zip folder using a file manager of your choice, extract this into a folder called debian on the root of your sdcard (there should be two files debian.img and debian.img.md5)\n\nYou are now ready to boot Debian, do this by either using the launch menu item or place the boot debian widget on your home screen and click it.\n\nYou can set settings like screen size in the Launch menu (found on the main screen of the app).\n\n After a minute or two you should get this message root@localhost:/# if you do get this then Debian is running please click NEXT.\nIf you don\'t please check you do have root and a kernel that supports loop devices, if you still have problems check the FAQ section</string>
+	<string name="debian_install_page3">Once the download has finished you will now need to extract the zip folder using a file manager of your choice, extract this into a folder called debian on the root of your sdcard (there should be two files debian.img and debian.img.md5)\n\nYou are now ready to boot Debian, do this by either using the launch menu item or place the boot widget on your home screen and click it.\n\nYou can set settings like screen size in the Launch menu (if you have a donation key), Please note if your image is not in /sdcard/debian/debian.img you will need to change the location in the launcher (press the settings button then press edit).\n\n After a minute or two you should get this message root@localhost:/# if you do get this then Debian is running please go to the next tab.\nIf you don\'t please check you do have root and a kernel that supports loop devices, if you still have problems check the FAQ section</string>
 	<string name="debian_install_page4">The terminal will now act like a Debian command line, to connect to the GUI run the VNC viewer app we have downloaded.\n Set your IP address to localhost and port number 5900 and enter the password debian, then press connect and the GUI will render.\n\n\nNOTE when you are finished in Debian you must type exit in the command line and then wait until everything shuts down.</string>
 	<string name="debian_image_description">There are three images you can chose from, Core, Small and Large.\n\nThe Core image is about 200MB to download and 750MB once extracted, it only includes a basic debian install with no GUI.\n\nThe Small image is about 600MB to download and 2GB once extracted, this included the XFCE GUI and basic programs.\n\nThe Large image is about 1GB to download and 3.5GB once extracted, this includes the XFCE GUI and a wide range of programs including open office</string>
 
+	<!--  Strings for the Archlinux install guide -->
+	<string name="beta_text">This distro is currently in BETA testing\n\nTo get beta access please buy a donation key\n\nOnce the distro is stable it will be made available to all</string>
+	<string name="arch_install_page2">Lets start by downloading a Archlinux image file.</string>
+	<string name="arch_install_page3">Once the download has finished you will now need to extract the zip folder using a file manager of your choice, extract this into a folder called archlinux on the root of your sdcard (there should be two files archlinux.img and archlinux.img.md5)\n\nYou are now ready to boot Archlinux, do this by either using the launch menu item or place the boot widget on your home screen and click it.\n\nYou can set settings like screen size in the Launch menu (if you have a donation key), Please note if your image is not in /sdcard/archlinux/archlinux.img you will need to change the location in the launcher (press the settings button then press edit).\n\n After a minute or two you should get this message root@localhost:/# if you do get this then Archlinux is running please go to the next tab.\nIf you don\'t please check you do have root and a kernel that supports loop devices, if you still have problems check the FAQ section</string>
+	<string name="arch_install_page4">The terminal will now act like a Archlinux command line, to connect to the GUI run the VNC viewer app we have downloaded.\n Set your IP address to localhost and port number 5900 and enter the password backtrac, then press connect and the GUI will render.\n\n\nNOTE when you are finished in Archlinux you must type exit in the command line and then wait until everything shuts down.</string>
+	<string name="arch_image_description">NOTE THESE ARE BETA see changelog for known issues\n\nThere are three images you can chose from, Core, Small and Large.\n\nThe Core image is about 300MB to download and 750MB once extracted, it only includes a basic Archlinux install with no GUI.\n\nThe Small image is about 300MB to download and 2GB once extracted, this included the LXDE GUI and basic programs.\n\nThe Large image is about 1.6GB to download and 3.5GB once extracted, this includes the KDE GUI</string>
+    
+	<!--  String for the Fedora install guide -->
+	<string name="fedora_install_page2">Lets start by downloading a Fedora image file.</string>
+	<string name="fedora_install_page3">Once the download has finished you will now need to extract the zip folder using a file manager of your choice, extract this into a folder called fedora on the root of your sdcard (there should be two files fedora.img and fedora.img.md5)\n\nYou are now ready to boot Fedora, do this by either using the launch menu item or place the boot widget on your home screen and click it.\n\nYou can set settings like screen size in the Launch menu (if you have a donation key), Please note if your image is not in /sdcard/fedora/fedora.img you will need to change the location in the launcher (press the settings button then press edit).\n\n After a minute or two you should get this message root@localhost:/# if you do get this then Fedora is running please go to the next tab.\nIf you don\'t please check you do have root and a kernel that supports loop devices, if you still have problems check the FAQ section</string>
+	<string name="fedora_install_page4">The terminal will now act like a Fedora command line, to connect to the GUI run the VNC viewer app we have downloaded.\n Set your IP address to localhost and port number 5900 and enter the password fedora, then press connect and the GUI will render.\n\n\nNOTE when you are finished in Fedora you must type exit in the command line and then wait until everything shuts down.</string>
+	<string name="fedora_image_description">NOTE THESE ARE BETA see changelog for known issues\n\nThere are three images you can chose from, Core, Small and Large.\n\nThe Core image is about 300MB to download and 750MB once extracted, it only includes a basic Fedora install with no GUI.\n\nThe Small image is about 300MB to download and 2GB once extracted, this included the XFCE GUI and basic programs.\n\nThe Large image is about 1.6GB to download and 3.5GB once extracted, this includes the XFCE GUI</string>
+	
+	<!-- Strings for Kali install guide -->
+	<string name="kali_install_page2">Lets start by downloading the Kali image file.\nThis is currently in BETA and has a number of issues which we are working on!</string>
+	<string name="kali_install_page3">Once the download has finished you will now need to extract the zip folder using a file manager of your choice, extract this into a folder called kali on the root of your sdcard (there should be two files kali.img and kali.img.md5)\n\nYou are now ready to boot Kali, do this by either using the Launch menu item or place the boot widget on your home screen and click it.\n\nYou can set settings like screen size in the Launch menu (if you have a donation key), Please note if your image is not in /sdcard/kali/kali.img you will need to change the location in the launcher (press the settings button then press edit).\n\n After a minute or two you should get this message root@localhost:/# if you do get this then kali is running please go to the next tab.\nIf you don\'t please check you do have root and a kernel that supports loop devices, if you still have problems check the FAQ section</string>
+	<string name="kali_install_page4">The terminal will now act like a kali command line, to connect to the GUI run the VNC viewer app we have downloaded.\n Set your IP address to localhost and port number 5900 and enter the password debian, then press connect and the GUI will render.\n\n\nNOTE when you are finished in kali you must type exit in the command line and then wait until everything shuts down.</string>
+	
 	<!-- Strings used in the download type selector dialog -->
 	<string name="dialog_select_donwload_type_title">Select download type</string>
 	<string name="dialog_select_donwload_type_description">Please select the type of download you want, you can choose to download either a torrent file or from sourceforge.</string>
@@ -111,12 +120,8 @@ Thanks for your help, zacthespack & tuxling.
 	<string name="dialog_button_sourceforge">From Sourceforge</string>
 	<string name="dialog_button_cancel_download">Cancel Download</string>
 
-	<!-- Strings for the build guides -->
-	<string name="buildGuides_Intro">These are the guides to building your own Linux Distro images.\n\n These methods are not the same for all distros so read the one for the distro you want to use!</string>
-	<string name="btn_BuildGuide_Ubuntu">Ubuntu Build Guide</string>
-
 	<!-- Strings for the tips -->
-	<string name="tips_text">Find Linux very laggy?\n\nAs Linux is running on top of android it can be quite laggy, to reduce this look at overclocking your CPU, or possibly using a ROM that is lighter (e.g a AOSP ROM) and so leaves more RAM free for apps to use</string>
+	<string name="tips_text">Find Linux very laggy?\n\nAs Linux is running on top of android it can be quite laggy, to reduce this look at overclocking your CPU, or possibly using a ROM that is lighter (e.g a AOSP ROM) and so leaves more RAM free for apps to use\n\nSet the wrong Screen size?\n\nIf you have set the wrong screen size for VNC and wish to change it (and had set it as default) then go to the location of your linux .img file. Here you should find a .config file, open this with a text editor and you will find a line that relates to the screen size. Change it here then just reboot Linux.</string>
 
 	<!-- Strings used for the changelog -->
 	<string name="changelog_intro">The change logs are split into three for each part to make it easier to find out what has been changed in what.\n(As with each app update alot is likely to have changed)</string>
@@ -130,15 +135,12 @@ Thanks for your help, zacthespack & tuxling.
 	<string name="FAQ_WhatCanIDo">What can I do with Ubuntu/Backtrack/Debian?\nThe large images comes with a range of software for example open office and Firefox, plus alot of other desktop programs which mean your android devices can very easily become a full computer! you can also install any programs for linux that have a ARM port or are not depended on the architecture</string>
 
 	<!-- The about text -->
-	<string name="about_intro">This project started off getting Ubuntu to boot on my Desire S and has grown ever since!\n\nNow the goal of this project is to make installing and running ubuntu has easy as possible, and on as many devices as possible. As of 2.0 I believe I have come pretty close to making it as easy as possible but time will tell\n\nThe team:\nZachary Powell (zacthespack)\nMartin Møller (tuxling)\n\nTranslaters:\nEnglish - Zachary Powell (zacthespack)\nDanish - Martin Møller (tuxling)</string>
-
-	<!-- The search text -->
-	<string name="search_intro">This feature will allow you to search to see if your device ROM/kernel supports Ubuntu, however the database behind this is not yet ready so this feature is not active!</string>
+	<string name="about_intro">This project started off getting Ubuntu to boot on my Desire S and has grown ever since!\n\nNow the goal of this project is to make installing and running a range of Linux distros on as manu different android devices as possible\n\nThe team:\nZachary Powell (zacthespack)\nMartin Møller (tuxling)\nWilliam Means (WEM97)\n\nTranslaters:\nEnglish - Zachary Powell (zacthespack) \nPortuguese - Nick Okita (XxLordxX) \nUkrainian - Андрій Бандура, jberezhnoy \nGerman - domenico.monella, Torsten Sachse, Garvin Sohns, Seyfert Lars, wirchaoten, maximilian.bornpoor \nNorwegian - Vegard Fladby \nSpanish - ivaneficio, José I. González, Andres Rossi, popehm, Red.Crow.aka.Algalan, Om Sauleda Brossa, Xabi \nHungarian - Lil Prophet \nRussian - yurark, jberezhnoy, Dmitry Chernogaev \nTurkish - fsadak \nPolish - Piotr Halama, Sławomir Kowalczyk, freshnrg</string>
 
 	<!-- Strings for the launcher -->
-	<string name="Launcher_Intro">This is a updated one click solution for booting into Linux, you no longer have to type the commands in the terminal every time (As in the free versions).\n\nPress the menu button on your device to edit the presets to match where you have saved the files to.\nYou can then either launch any of the linux distros from here or place a widget on your home screen (Which will on first use ask for location of the files).\n\nThis new and highly improved one click boot system was designed and coded by Martin Møller</string>
+	<string name="Launcher_Intro">This is the one click solution for booting into Linux.\n\nPress the menu button on your device to edit the presets to match where you have saved the files to.\nYou can then either launch any of the linux distros from here or place a widget on your home screen (Which will on first use ask for location of the files).\n\nThis new and highly improved one click boot system was designed and coded by Martin Møller</string>
 	<string name="Launcher_Intro_Warning">Warning! The image set in this profile does not exist! Please use the menu button and change the image name.</string>
-		<string name="toast_warning_image_not_found">Warning! The image set in this profile does not exist!</string>
+	<string name="toast_warning_image_not_found">Warning! The image set in this profile does not exist! (This might mean your image file is in a different location!)</string>
 
 	<string name="toolbox_TitleText">Please select Linux distribution below to start it or change settings.</string>
 	<string name="button_Configure">Configure Linux</string>
@@ -151,6 +153,13 @@ Thanks for your help, zacthespack & tuxling.
 	<string name="menu_OpenFolder">Open Folder</string>
 	<string name="hint_EnterName">Enter name here</string>
 	<string name="inputLabel_Name">Name</string>
+	<string name="menu_reinstallbusybox">Reinstall Busybox</string>
+	
+	<string name="launcer_ImageAlreadyMounted">Another image is already mounted, do you want to chroot into the image now?</string>
+	<string name="launcer_StartAborted">Not started!</string>
+	
+	<string name="terminal_error">Unable to Find terminal App!\nPlease make sure you have the correct terminal installed as linked in the setup guide.\n\nIf the app came preinstalled with your ROM you will need to remove this version and reinstall from the market</string>
+	
 
 	<!-- Config editor strings -->
 	<string name="title_ConfigureLinux">Configure</string>
@@ -209,12 +218,21 @@ Thanks for your help, zacthespack & tuxling.
 
 	<string name="mounts_editor_popup_hint_linux_path">Enter Linux folder</string>
 	<string name="mounts_editor_popup_hint_android_path">Android folder to share</string>
+	
+	<string name="check_box_swap">Create 1GB SWAP File</string>
+	
 
+	<!-- Autoboot strings -->
+	<string name="title_ConfigureAutoRun">Auto Run Settings</string>
+    <string name="menu_AutoRunConfig">Auto Run Settings</string>
+    <string name="autorun_config_intro">Here you can set a image to automaticly start when Android boots.</string>
+    <string name="autorun_config_checkbox_text">Auto run enabled</string>
+    <string name="autorun_config_label_text_image">Image Name</string>
 
 	<!--Strings for the widgets -->
-	<string name="widget_name_debian">One Click Boot Debian</string>
-	<string name="widget_name_backtrack">One Click Boot Backtrack</string>
-	<string name="widget_name_ubuntu">One Click Boot Ubuntu</string>
+	<string name="widget_name_linux">One Click Boot Linux 1x1</string>
+	<string name="widgetm_name_linux">One Click Boot Linux 4x1</string>
+	
 
 	<string name="widget_toast_image_not_found">Image not found!</string>
 
@@ -224,44 +242,7 @@ Thanks for your help, zacthespack & tuxling.
 	<string name="cfg_Label_ScriptName">Script Name</string>
 	<string name="cfg_Label_Description">Please enter the complete Linux image name including path above.\n(You only have to do this once)</string>
 
-	<!-- These are used as activities titles -->
-	<string name="content_Description_dummy"></string>
-	<string name="content_Description_logo">Complete Linux Installer</string>
-	<string name="content_Description_about">About</string>
-	<string name="content_Description_home">Home</string>
-	<string name="content_Description_search">Search</string>
-	<string name="content_Description_feature1">Install Guides</string>
-	<string name="content_Description_feature2">Build Guides</string>
-	<string name="content_Description_feature3">Tips</string>
-	<string name="content_Description_feature4">FAQ</string>
-	<string name="content_Description_feature5">Change Logs</string>
-	<string name="content_Description_feature6">Launch</string>
-	
-	<!-- License checking status messages -->
-    <string name="check_license">Check license</string>
-    <string name="checking_license">Checking license</string>
-    <string name="dont_allow">Don\'t allow the user access</string>
-    <string name="allow">Allow the user access</string>
-    <string name="application_error">Application error: %1$s</string>
-
-    <!-- Unlicensed dialog messages -->
-    <string name="unlicensed_dialog_title">Application not licensed</string>
-    <string name="unlicensed_dialog_body">This application is not licensed. Please purchase it from Android Market.</string>
-    <string name="unlicensed_dialog_retry_body">Unable to validate license. Check to see if a network connection is available.</string>
-    <string name="buy_button">Buy app</string>
-    <string name="retry_button">Retry</string>
-    <string name="quit_button">Exit</string>
-
-	<!-- Strings not shown to normnal users, don't need to be translated! -->
-	<string name="code_error_text">IF YOU SEE THIS WE MADE AN ERROR IN THE APP, PLEASE LET US KNOW!</string>
-
-    <string name="title_ConfigureAutoRun">Auto Run Settings</string>
-    <string name="menu_AutoRunConfig">Auto Run Settings</string>
-    <string name="autorun_config_intro">Here you can set a image to automaticly start when Android boots.</string>
-    <string name="autorun_config_checkbox_text">Auto run enabled</string>
-    <string name="autorun_config_label_text_image">Image Name</string>
-
-	<!-- Strings added 05/06-2012 -->
+	<!-- Strings for Updater -->
 	<string name="title_ScriptUpdater">Update Scripts</string>
 	<string name="menu_UpdateScripts">Update Scripts</string>
 	<string name="updater_BootIntro">Boot script, this is the script used by the launcher and widgets</string>
@@ -272,32 +253,10 @@ Thanks for your help, zacthespack & tuxling.
 	<string name="updater_Label_OnlineAutoBoot">Latest:</string>
 	<string name="updater_btn_UpdateBootScript">Update Boot Script</string>
 	<string name="updater_btn_UpdateAutoBootScript">Update Auto Boot Script</string>
-
-	<!-- Strings added 08/06-2012 -->
-	<string name="launcer_ImageAlreadyMounted">Another image is already mounted, do you want to chroot into the image now?</string>
-	<string name="launcer_StartAborted">Not started!</string>
 	<string name="updater_ErrorGettingVersions">Unable to get version info from the server, check your internet connection and try again!</string>
 	<string name="updater_ErrorDownloadingFile">Unable to download file from the server, check your internet connection and try again!</string>
 	<string name="updater_Btn_Ok">OK</string>
-	
-	<!-- Strings added 16/07-2012 -->
-	<string name="installGuide_Menu_ArchLinux">ArchLinux</string>
-	<string name="installGuide_Menu_Fedora">Fedora 17</string>
-	<string name="installGuide_Menu_openSUSE">openSUSE 12</string>
-	<string name="comings_soon_text">This Distros will be coming soon!\n\nThose with donation keys will get test versions first (they will be unlocked to the free app once stable)</string>
-	<string name="terminal_error">Unable to Find terminal App!\nPlease make sure you have the correct terminal installed as linked in the setup guide.\n\nIf the app came preinstalled with your ROM you will need to remove this version and reinstall from the market</string>
-	
-    <!--  Strings added 16/08-2012 -->
-    <string name="check_box_swap">Create 1GB SWAP File</string>
-    <string name="beta_text">This distro is currently in BETA testing\n\nTo get beta access please buy a donation key\n\nOnce the distro is stable it will be made available to all</string>
-	
-	<string name="arch_install_page1">Before we start you MUST have Root and a kernel that supports loop devices.\nThis works best on lighter roms that give you more free memory to run Debian smoothly\n\nAlso make sure that you have debugging mode enabled Go to Settings->Applications->Development and make sure USB Debugging is checked ON.\n\nYou will also need at least 3.5GB of memory card space for the large image\n\nIf you have all of this please press NEXT, otherwise you will not be able to install Archlinux on your device</string>
-	<string name="arch_install_page2">Lets start by downloading a Archlinux image file.</string>
-	<string name="arch_install_page3">Once the download has finished you will now need to extract the zip folder using a file manager of your choice, extract this into a folder called archlinux on the root of your sdcard (there should be two files archlinux.img and archlinux.img.md5)\n\nYou are now ready to boot Archlinux, do this by either using the launch menu item or place the boot debian widget on your home screen and click it.\n\nYou can set settings like screen size in the Launch menu (found on the main screen of the app).\n\n After a minute or two you should get this message root@localhost:/# if you do get this then Archlinux is running please click NEXT.\nIf you don\'t please check you do have root and a kernel that supports loop devices, if you still have problems check the FAQ section</string>
-	<string name="arch_install_page4">The terminal will now act like a Archlinux command line, to connect to the GUI run the VNC viewer app we have downloaded.\n Set your IP address to localhost and port number 5900 and enter the password backtrac, then press connect and the GUI will render.\n\n\nNOTE when you are finished in Debian you must type exit in the command line and then wait until everything shuts down.</string>
-	<string name="arch_image_description">NOTE THESE ARE BETA see changelog for known issues\n\nThere are three images you can chose from, Core, Small and Large.\n\nThe Core image is about 300MB to download and 750MB once extracted, it only includes a basic Archlinux install with no GUI.\n\nThe Small image is about 300MB to download and 2GB once extracted, this included the LXDE GUI and basic programs.\n\nThe Large image is about 1.6GB to download and 3.5GB once extracted, this includes the KDE GUI</string>
-    
-	<!--  Strings added 27/09-2012 -->
-	<string name="menu_reinstallbusybox">Reinstall Busybox</string>
 
+	<!-- Strings not shown to normnal users, don't need to be translated! -->
+	<string name="code_error_text">IF YOU SEE THIS WE MADE AN ERROR IN THE APP, PLEASE LET US KNOW!</string>	
 </resources>

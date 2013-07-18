@@ -1,13 +1,15 @@
 ###########################################
-# Linux boot script V7.6 for Android      #
+# Linux boot script V7.9 for Android      #
 # Built by Zachary Powell (zacthespack)   #
-# and Martin Møller (Tuxling)            #
+# and Martin Møller (Tuxling)             #
 # Thanks to:                              #
 # Johan Vromans                           #
 # Marshall Levin                          #
 # and to everyone at XDA!                 #
+# Feel free to edit/use this script as you#
+# like but credit Linuxonandroid.org      #
 ###########################################
-# $ver: V7.7                              #
+# $ver: V7.9                              #
 ###########################################
 
 
@@ -61,15 +63,20 @@ fi
 # If a md5 file is found we check it here #
 ###########################################
 if [ -f $imgfile.md5 ]; then
-    echo -n "Validating image checksum... "
-    $bbox md5sum -c -s $imgfile.md5
-    if [ $? -ne 0 ];then
-        echo "FAILED!"
-        error_exit "Checksum failed! The image is corrupted!"
-    else
-        echo "OK"
-        rm $imgfile.md5
-    fi
+        echo "MD5 file found, use to check .img file? (y/n)"
+	read answer
+	if [ $answer == y ]; then
+	     echo -n "Validating image checksum... "
+    	     $bbox md5sum -c -s $imgfile.md5
+    	     if [ $? -ne 0 ];then
+                  echo "FAILED!"
+                  error_exit "Checksum failed! The image is corrupted!"
+             else
+                  echo "OK"
+                  rm $imgfile.md5
+             fi
+	fi
+   
 fi
 ################################
 # Find and read config file    #
@@ -242,6 +249,7 @@ $bbox umount $mnt/root/cfg
 $bbox umount $mnt/sdcard
 $bbox umount $mnt/external_sd
 $bbox umount $mnt/dev/pts
+$bbox umount $mnt/dev
 $bbox umount $mnt/proc
 $bbox umount $mnt/sys
 $bbox umount $mnt

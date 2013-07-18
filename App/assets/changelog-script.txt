@@ -1,3 +1,8 @@
+26/05/2013
+v7.9
+*Fixed error when exiting linux
+*Now asks user if they want to check MD5 on first boot
+
 27/09/2012
 *Fixed error with script not starting off using the apps busybox which causes errors on devices that dont have another busybox installed
 

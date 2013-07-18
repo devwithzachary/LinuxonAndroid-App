@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Korean language file created by Bonggeun -->
+
+<!--
+The lines in this file all look like this:
+
+	<string name="button_back">Back</string>
+
+The only part of that line you have to translate is the word 'Back' (Not the button_back part)
+It's very important that the rest of the line is unchaged.
+
+The correct Danish translation of the above line would look like:
+	<string name="button_back">Tilbage</string>
+
+If you need the ' character you have to write \' for it to work.
+\n is making a new line, så \n\n create a blank line
+
+Remember to change the top comment to the language you translated to and your name.
+And fell free to remove these instructions after you read them.
+
+Thanks for your help, zacthespack & tuxling.
+-->
+
+<resources>
+	<string name="app_name">리눅스 인스톨러</string>
+
+	<!-- Strings used more than one place -->
+	<string name="title_about">앱에 대해서</string>
+	
+	<string name="button_back">뒤로</string>
+
+	<string name="download_VNC">VNCViewer 다운로드/설치</string>
+	<string name="download_Term">터미널 다운로드/설치</string>
+	<string name="download_sourceforge">sourceforge에서 다운로드</string>
+	<string name="download_Torrent">토런트로 다운로드</string>
+    
+    <string name="install_page1">먼저 루트 권한과 루프를 지원하는 커널이 있어야 합니다. 원활하게 리눅스를 실행하는데는 가벼운 롬과 많은 가용램이 필요합니다.\n\n또한 설정-어플리케이션-개발자 옵션에서 USB 디버깅을 활성화해야합니다.\n\nSD카드에는 충분한 여유공간이 필요합니다.\n\n만약 위와같은 조건이 충족되지 않으면, 리눅스를 설치할 수 없습니다.</string>
+	<string name="install_apps_text">다운로드 되는동안, VNC viewer과 터미널 어플을 설치하지 않은경우 설치하십시오.</string>
+	<string name="after_install_text">리눅스 패키지를 다운로드 하고 두 어플을 설치한후 다음을 눌러주세요.</string>
+
+	<!-- Side Menu buttons -->
+	<string name="frontpage_btn_InstallGuides">설치 방법</string>
+	<string name="frontpage_btn_Tips">팁</string>
+	<string name="frontpage_btn_FAQ">FAQ</string>
+	<string name="frontpage_btn_Changelog">변경 사항</string>
+	<string name="frontpage_btn_Launch">리눅스 구동</string>
+	<string name="frontpage_btn_news">뉴스 피드</string>
+	<string name="frontpage_btn_about">앱에 대해서</string>
+
+	<!-- Strings used on the install guides main menu -->
+	<string name="installGuide_Menu_Intro">다음은 지원되는 리눅스의 종류들입니다.</string>
+	<string name="installGuide_Menu_Ubuntu10">우분투 10버전 설치법</string>
+	<string name="installGuide_Menu_Ubuntu12">우분투 12버전 설치법</string>
+	<string name="installGuide_Menu_Backtrack">백트랙 설치법</string>
+	<string name="installGuide_Menu_Debian">데비안 설치법</string>
+	<string name="installGuide_Menu_ArchLinux">아치리눅스</string>
+	<string name="installGuide_Menu_Fedora">페도라 17버전</string>
+	<string name="installGuide_Menu_openSUSE">오픈수세 12버전</string>
+	<string name="comings_soon_text">이 버전은 곧 릴리즈됩니다!\n\n 기부키가 있으신경우 테스트버전을 첫번째로 이용하실수 있습니다. (정식 버전이 나올경우 무료버전에도 공개됩니다.)</string>
+	
+	<string name="debian_guide">데비안 설치</string>
+	<string name="backtrack_guide">백트랙 설치</string>
+	<string name="archlinux_guide">아치리눅스 설치</string>
+	<string name="ubuntu10_guide">우분투 10.10버전 설치</string>
+	<string name="ubuntu12_guide">우분투 12.04버전 설치</string>
+	
+	<!-- Strings for all download guides -->
+	<string name="download_menu_button">이미지 다운로드</string>
+	<string name="download_Large">풀버전 이미지 다운로드</string>
+	<string name="download_Small">스몰버전 이미지 다운로드</string>
+	<string name="download_Core">코어버전 이미지 다운로드</string>
+	
+	<!-- Strings for ubuntu 10 install guide -->
+	<string name="ubuntu10_install_page2">우분투 이미지를 받아 봅시다. 이미지에는 풀,스몰,코어가 있습니다. 풀버전은 사전설치된 프로그램이 많고, 스몰버전은 가볍습니다.</string>
+	<string name="ubuntu10_install_page3">다운로드가 완료되면, 파일 관리자로 sd카드 최상위에 ubuntu라는 폴더를 만들고 그곳에 압축을 풉니다. (파일은 ubuntu.img 과 ubuntu.img.md5 두개가 있습니다.)\n\n우분투로 부팅할 준비가 되면, 홈 메뉴의 적당한곳에 우분투 부팅 위젯을 두고 클릭합니다.\n\n터미널에서 자신의 화면 해상도를 입력하세요.\n\n 1-2분이 지나고 root@localhost:/#과 같은 메시지를 받을 겁니다. 받으면 홈키를 누른 후 VNC를 실행하세요.\n메시지가 뜨지 않으면, 루트 권한이나 커널에 문제가 있습니다. FAQ를 참조하세요.</string>
+	<string name="ubuntu10_install_page4">터미널은 우분투 커맨드의 역할을 수행하므로, GUI를 사용할려면 VNC 뷰어를 실행하세요.\nIP주소에 localhost,포트(port)에 5900을 넣고 우분투의 비밀번호를 설정한 다음 연결(connect)을 누릅니다.\n\n\n중요;우분투를 끝내고 싶을때 커맨드에 exit를 입력하고 모두 꺼질때까지 기다려야 합니다.</string>
+	<string name="ubuntu10_image_description">풀버전은 압축 해제시 3.5GB의 용량을 차지하고, 파이톤부터 오피스까지 다양한 프로그램이 있습니다.이 버전은 1.5GB의 여유공간이 있습니다.\n\n스몰버전은 2.5GB의 용량을 사용합니다. 이 버전은 인터넷,자바를 포함한 기본적인 프로그램만 있습니다. 이 버전은 1.5GB의 여유공간을 가지고 있습니다.</string>
+
+	<!-- Strings for ubuntu 12 install guide -->
+	<string name="ubuntu12_install_page2">우분투 이미지를 받아 봅시다. 이미지에는 풀,스몰,코어가 있습니다. 다운로드를 누르면 각각의 설명을 볼수 있습니다.</string>
+	<string name="ubuntu12_image_description">코어 이미지는 750mb의 용량을 사용합니다. 이 이미지는, GUI가 포함되어있지 않고 구동에 필요한 최소한의 기능만 있습니다. 400mb의 여유공간이 있습니다.\n스몰버전은 2GB의 용량을 사용합니다. 이 버전은 예전 데스크톱과 인터넷,자바를 포함한 기본적인 프로그램만 있습니다. 이 버전은 1GB의 여유공간을 가지고 있습니다.\n풀버전은 3.5GB의 용량을 사용하고, 유니티 데스크톱과 많은 프로그램이 포함되어 있습니다. 1.1GB의 여유공간을 가지고 있습니다.</string>
+
+	<!-- Strings for Backtrack install guide -->
+	<string name="backtrack_install_page2">백트랙 이미지를 받아 봅시다.</string>
+	<string name="backtrack_install_page3">다운로드가 완료되면, 파일 관리자로 sd카드 최상위에 backtrack라는 폴더를 만들고 그곳에 압축을 풉니다. (파일은 backtrack.img 과 backtrack.img.md5 두개가 있습니다.)\n\n백트랙으로 부팅할 준비가 되면, 홈 메뉴의 적당한곳에 백트랙 부팅 위젯을 두고 클릭합니다.\n\n터미널에서 자신의 화면 해상도를 입력하세요.\n\n 1-2분이 지나고 root@localhost:/#과 같은 메시지를 받을 겁니다. 받으면 홈키를 누른 후 VNC를 실행하세요.\n메시지가 뜨지 않으면, 루트 권한이나 커널에 문제가 있습니다. FAQ를 참조하세요.</string>
+	<string name="backtrack_install_page4">터미널은 백트랙 커맨드의 역할을 수행하므로, GUI를 사용할려면 VNC 뷰어를 실행하세요.\nIP주소에 localhost,포트(port)에 5900을 넣고 백트랙의 비밀번호를 설정한 다음 연결(connect)을 누릅니다.\n\n\n중요;백트랙을 끝내고 싶을때 커맨드에 exit를 입력하고 모두 꺼질때까지 기다려야 합니다.</string>
+
+	<!-- Strings for Debian install guide -->
+	<string name="debian_install_page2">데비안 이미지를 받아 봅시다.</string>
+	<string name="debian_install_page3">다운로드가 완료되면, 파일 관리자로 sd카드 최상위에 debian이라는 폴더를 만들고 그곳에 압축을 풉니다. (파일은 debian.img 과 debian.img.md5 두개가 있습니다.)\n\데비안으로 부팅할 준비가 되면, 홈 메뉴의 적당한곳에 데비안 부팅 위젯을 두고 클릭합니다.\n\n터미널에서 자신의 화면 해상도를 입력하세요.\n\n 1-2분이 지나고 root@localhost:/#과 같은 메시지를 받을 겁니다. 받으면 홈키를 누른 후 VNC를 실행하세요.\n메시지가 뜨지 않으면, 루트 권한이나 커널에 문제가 있습니다. FAQ를 참조하세요.</string>
+	<string name="debian_install_page4">터미널은 데비안 커맨드의 역할을 수행하므로, GUI를 사용할려면 VNC 뷰어를 실행하세요.\n IP주소에 localhost,포트(port)에 5900을 넣고 데비안의 비밀번호를 설정한 다음 연결(connect)을 누릅니다.\n\n\n중요;데비안을 끝내고 싶을때 커맨드에 exit를 입력하고 모두 꺼질때까지 기다려야 합니다.</string>
+	<string name="debian_image_description">3개의 이미지 종류중 하나를 선택할수 있습니다.\n\n코어 이미지는 750MB의 용량을 차지하고, GUI를 사용할 수 없습니다.\n\n스몰 이미지는 2GB의 용량을 사용하고, 기본적인 프로그램이 포함되어 있습니다.\n\n풀버전 이미지는 3.5gb의 용량을 사용하고, 오픈오피스를 포함, 다양한 프로그램을 내장하고 있습니다.</string>
+
+	<!--  Strings for the Archlinux install guide -->
+	<string name="beta_text">이 버전은 베타테스팅 용입니다.\n\n베타 버전을 이용하실려면 기부키를 구매하세요.\n\n이 버전은 정식으로 릴리즈되면 무료 사용자에게도 공개됩니다.</string>
+	<string name="arch_install_page2">아치리눅스 파일을 받아 봅시다.</string>
+	<string name="arch_install_page3">다운로드가 완료되면, 파일 관리자로 sd카드 최상위에 archlinux라는 폴더를 만들고 그곳에 압축을 풉니다. (파일은 archlinux.img 과 archlinux.img.md5 두개가 있습니다.)\n\n아치리눅스로 부팅할 준비가 되면, 홈 메뉴의 적당한곳에 아치리눅스 부팅 위젯을 두고 클릭합니다.\n\n터미널에서 자신의 화면 해상도를 입력하세요.\n\n 1-2분이 지나고 root@localhost:/#과 같은 메시지를 받을 겁니다. 받으면 홈키를 누른 후 VNC를 실행하세요.\n메시지가 뜨지 않으면, 루트 권한이나 커널에 문제가 있습니다. FAQ를 참조하세요.</string>
+	<string name="arch_install_page4">터미널은 아치리눅스 커맨드의 역할을 수행하므로, GUI를 사용할려면 VNC 뷰어를 실행하세요.\n IP주소에 localhost,포트(port)에 5900을 넣고 아치리눅스의 비밀번호를 설정한 다음 연결(connect)을 누릅니다.\n\n\n중요;아치리눅스를 끝내고 싶을때 커맨드에 exit를 입력하고 모두 꺼질때까지 기다려야 합니다.</string>
+	<string name="arch_image_description">베타 버전이므로 변경 사항에서 주요이슈를 확인하세요.\n\nThere are three images you can chose from, Core, Small and Large.\n\nThe Core image is about 300MB to download and 750MB once extracted, it only includes a basic Archlinux install with no GUI.\n\nThe Small image is about 300MB to download and 2GB once extracted, this included the LXDE GUI and basic programs.\n\nThe Large image is about 1.6GB to download and 3.5GB once extracted, this includes the KDE GUI</string>
+    
+	<!-- Strings used in the download type selector dialog -->
+	<string name="dialog_select_donwload_type_title">다운로드 방법선택</string>
+	<string name="dialog_select_donwload_type_description">다운받는 방법은 토렌트와 sourceforge가 있으므로 원하는대로 선택하세요.</string>
+	<string name="dialog_button_torrent">토렌트로 다운</string>
+	<string name="dialog_button_sourceforge">Sourceforge에서 다운</string>
+	<string name="dialog_button_cancel_download">다운로드 취소</string>
+
+	<!-- Strings for the tips -->
+	<string name="tips_text">리눅스는 많이 무거워요?\n\n리눅스는 안드로이드 위에 실행되므로 많이 무겁습니다. CPU를 오버클럭하거나 가용램을 많이 확보할수록 원활하게 구동됩니다. (예)AOSP롬) 따라서 필요없는 어플은 끄시기 바랍니다.</string>
+
+	<!-- Strings used for the changelog -->
+	<string name="changelog_intro">변경 사항은 쉽게 찾을수있도록 다음과 같이 분류되었습니다.\n(앱에 관해 찾고싶은경우 앱 변경사항을 누르세요.)</string>
+	<string name="changelog_button_applog">앱 변경사항</string>
+	<string name="changelog_button_imagelog">이미지 변경사항</string>
+	<string name="changelog_button_scriptlog">스크립트 변경사항</string>
+
+	<!-- Strings for the FAQ -->
+	<string name="FAQ_intro">What is Ubuntu/Backtrack/Debian?\nUbuntu/Backtrack/Debian are linux based operating system normally for the computer, however with this port we can run it on our phone, this allows you to pretty much install any software available for linux and run it on your phone.\n\nCan I upgrade Ubuntu/Backtrack/Debian?\nNo if you try to upgrade the image it will break the image, but you can update programs and packages\n\nBest settings for Android VNC Viewer?\nFull 24-bit colour works very well and there is no need to down step this, also Input Mode is best set to touchpad as the GUI is not very touch screen friendly when its this small! Using touchpad makes the touch screen act just like the touchpad on a laptop and I find this very easy to use.\n\nUbuntu/Backtrack/Debian Does Not Install\nIf Ubuntu/Backtrack/Debian does not install please check the list of known phones/kernels/android version that do / do not work by clicking the button below, if you device is not there email me with your device, kernel and android version and I will get back to you ASAP</string>
+	<string name="FAQ_WorkingDevices">작동되는 기기</string>
+	<string name="FAQ_WhatCanIDo">What can I do with Ubuntu/Backtrack/Debian?\nThe large images comes with a range of software for example open office and Firefox, plus alot of other desktop programs which mean your android devices can very easily become a full computer! you can also install any programs for linux that have a ARM port or are not depended on the architecture</string>
+
+	<!-- The about text -->
+	<string name="about_intro">This project started off getting Ubuntu to boot on my Desire S and has grown ever since!\n\nNow the goal of this project is to make installing and running a range of Linux distros on as manu different android devices as possible\n\nThe team:\nZachary Powell (zacthespack)\nMartin Møller (tuxling)\n\nTranslaters:\nEnglish - Zachary Powell (zacthespack)\nDanish - Martin Møller (tuxling) \nFinnish - norppa \nKorean - bonggeun</string>
+
+	<!-- Strings for the launcher -->
+	<string name="Launcher_Intro">다음은 원클릭으로 리눅스에 진입하는 방법입니다.\n\nPress the menu button on your device to edit the presets to match where you have saved the files to.\nYou can then either launch any of the linux distros from here or place a widget on your home screen (Which will on first use ask for location of the files).\n\nThis new and highly improved one click boot system was designed and coded by Martin Møller</string>
+	<string name="Launcher_Intro_Warning">Warning! The image set in this profile does not exist! Please use the menu button and change the image name.</string>
+	<string name="toast_warning_image_not_found">경고.프로필 파일과 일치하지 않습니다! (아마 다른 위치일수 있습니다!)</string>
+
+	<string name="toolbox_TitleText">Please select Linux distribution below to start it or change settings.</string>
+	<string name="button_Configure">리눅스 설정</string>
+
+	<string name="button_StartLinux">리눅스 시작</string>
+
+	<string name="menu_AddDistro">추가</string>
+	<string name="menu_DeleteDistro">삭제</string>
+	<string name="menu_EditDistro">수정</string>
+	<string name="menu_OpenFolder">폴더 열기</string>
+	<string name="hint_EnterName">이름을 입력하세요.</string>
+	<string name="inputLabel_Name">이름</string>
+	<string name="menu_reinstallbusybox">Busybox 재설치</string>
+	
+	<string name="launcer_ImageAlreadyMounted">다른 이미지가 이미 마운트되어 있습니다, 바꾸시겠습니까?</string>
+	<string name="launcer_StartAborted">시작되지 않음!</string>
+	
+	<string name="terminal_error">터미널 어플을 찾을 수 없습니다!\n터미널 어플이 설치되어있는지 확인하고 설치 방법을 다시 참조하세요.\n\n만약 롬에 사전설치 되어있는경우 삭제후 노는가게에서 재설치해야합니다.</string>
+	
+
+	<!-- Config editor strings -->
+	<string name="title_ConfigureLinux">설정</string>
+	<string name="Config_intro">This is the configuration screen, here you can change how the image is started and set various settings.</string>
+	<string name="config_button_mounts">Configure mounts</string>
+	<string name="launcher_Label_ImageName">Image</string>
+
+	<string name="check_box_start_vnc">Start VNC Server</string>
+	<string name="check_box_start_ssh">Start SSH Server</string>
+	<string name="config_screen_width">Screen Width</string>
+	<string name="config_screen_height">Screen Height</string>
+
+	<string name="title_ConfigureMounts">Mount Editor</string>
+
+	<string name="button_SaveAndExit">Save Changes</string>
+	<string name="button_mounts_back">Back</string>
+	<string name="button_mounts_abort_changes">Abort Changes</string>
+
+	<string name="configure_Mounts_Intro">Below you can add folders to be mounted in the Linux environment. Long press a mount to edit it and press menu to add/delete a mount or change view mode.</string>
+
+	<string name="label_AndroidPath">Android Path</string>
+	<string name="label_LinuxPath">Linux Path</string>
+
+
+	<string name="menu_ToggleViewMode">Change View Mode</string>
+	<string name="menu_AddMount">Add Mount</string>
+
+	<string name="mount_editor_viewmode_android">Viewing Android folders</string>
+	<string name="mount_editor_viewmode_linux">Viewing Linux mount points</string>
+	<string name="mount_editor_viewmode_both">Viewing Both</string>
+
+	<string name="context_menu_edit">Edit</string>
+	<string name="context_menu_delete">Delete</string>
+
+	<string name="message_cant_delete_last_profile">You can not delete the last entry!</string>
+
+	<string name="dialog_delete_distro">Are you sure you want to delete profile?</string>
+	<string name="dialog_delete_mount">Are you sure you want to delete mount?</string>
+
+	<string name="dialog_must_enter_name">You must enter a name!</string>
+	<string name="dialog_changes_saved">Changes saved</string>
+	<string name="dialog_added">Added</string>
+	<string name="dialog_name_already_exist">Name already exist</string>
+
+
+	<string name="dialog_button_ok">OK</string>
+	<string name="dialog_button_cancel">Cancel</string>
+	<string name="dialog_button_yes">Yes</string>
+	<string name="dialog_button_no">No</string>
+
+	<string name="dialog_message_deleted">Deleted</string>
+	<string name="dialog_message_saved">Saved</string>
+	<string name="dialog_message_aborted">Aborted</string>
+	<string name="dialog_message_mounts_saved">Mounts Saved</string>
+	<string name="dialog_message_changes_aborted">Changes Aborted</string>
+
+	<string name="mounts_editor_popup_hint_linux_path">Enter Linux folder</string>
+	<string name="mounts_editor_popup_hint_android_path">Android folder to share</string>
+	
+	<string name="check_box_swap">Create 1GB SWAP File</string>
+	
+
+	<!-- Autoboot strings -->
+	<string name="title_ConfigureAutoRun">자동실행 설정</string>
+    <string name="menu_AutoRunConfig">자동실행 설정</string>
+    <string name="autorun_config_intro">안드로이드 부팅시 자동으로 리눅스가 실행되게 합니다.</string>
+    <string name="autorun_config_checkbox_text">자동실행 켜짐</string>
+    <string name="autorun_config_label_text_image">이미지 이름</string>
+
+	<!--Strings for the widgets -->
+	<string name="widget_name_linux">원클릭 리눅스 부트</string>
+
+	<string name="widget_toast_image_not_found">이미지 발견안됨</string>
+
+	<string name="cfg_widget_save">저장</string>
+	<string name="cfg_Label_ImagePath">이미지 경로입력(절대경로)</string>
+	<string name="cfg_Label_Path">경로</string>
+	<string name="cfg_Label_ScriptName">스크립트 이름</string>
+	<string name="cfg_Label_Description">전체 경로를 입력하세요.\n(한번만 해야 합니다.)</string>
+
+	<!-- Strings for Updater -->
+	<string name="title_ScriptUpdater">업테이트 스크립트</string>
+	<string name="menu_UpdateScripts">스크립트 업데이트</string>
+	<string name="updater_BootIntro">Boot script, this is the script used by the launcher and widgets</string>
+	<string name="updater_AutoBootIntro">Auto boot script, this is the one used to auto start with Android</string>
+	<string name="updater_Label_InstalledBoot">Installed:</string>
+	<string name="updater_Label_OnlineBoot">Latest:</string>
+	<string name="updater_Label_InstalledAutoBoot">Installed:</string>
+	<string name="updater_Label_OnlineAutoBoot">Latest:</string>
+	<string name="updater_btn_UpdateBootScript">Update Boot Script</string>
+	<string name="updater_btn_UpdateAutoBootScript">Update Auto Boot Script</string>
+	<string name="updater_ErrorGettingVersions">Unable to get version info from the server, check your internet connection and try again!</string>
+	<string name="updater_ErrorDownloadingFile">Unable to download file from the server, check your internet connection and try again!</string>
+	<string name="updater_Btn_Ok">OK</string>
+
+	<!-- Strings not shown to normnal users, don't need to be translated! -->
+	<string name="code_error_text">IF YOU SEE THIS WE MADE AN ERROR IN THE APP, PLEASE LET US KNOW!</string>
+	
+</resources>

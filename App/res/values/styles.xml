@@ -1,102 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!--
- Copyright (C) 2012 linuxonandroid.org
+Copyright (C) 2013 linuxonandroid.org
 
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-      http://www.apache.org/licenses/LICENSE-2.0
+http://www.apache.org/licenses/LICENSE-2.0
 
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
 -->
 <resources>
-    <style name="Theme" parent="@android:style/Theme" />
-    <style name="Theme.D1t" parent="@android:style/Theme.Light">
-        <item name="android:windowNoTitle">false</item>
-        <item name="android:windowContentOverlay">@null</item>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
     </style>
-    <style name="Theme.D1" parent="@android:style/Theme.Light">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowContentOverlay">@null</item>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    <style name="Theme.D1dialog" parent="@android:style/Theme.Dialog">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowContentOverlay">@null</item>
-    </style>
-    <style name="Theme.D1tranlucent" parent="@android:style/Theme.Translucent">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowContentOverlay">@null</item>
-    </style>
-    <style name="HomeButton">
-        <item name="android:textSize">@dimen/text_size_medium</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/foreground1</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:background">@null</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1.0</item>
-    </style>
-    <style name="TitleBar">
-        <item name="android:orientation">horizontal</item>
-        <item name="android:id">@id/title_container</item>
-        <item name="android:background">@color/title_background</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">@dimen/title_height</item>
-    </style>
-    <style name="TitleBarAction">
-        <item name="android:background">@drawable/title_button</item>
-        <item name="android:layout_width">@dimen/title_height</item>
-        <item name="android:layout_height">fill_parent</item>
-    </style>
-    <style name="TitleBarProgressIndicator" parent="@android:style/Widget.ProgressBar.Small">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">14.0dip</item>
-        <item name="android:layout_marginTop">14.0dip</item>
-        <item name="android:layout_marginRight">15.0dip</item>
-        <item name="android:indeterminate">true</item>
-    </style>
-    <style name="TitleBarSeparator">
-        <item name="android:background">@color/title_separator</item>
-        <item name="android:layout_width">1.0px</item>
-        <item name="android:layout_height">fill_parent</item>
-    </style>
-    <style name="TitleBarLogo">
-        <item name="android:id">@id/title_logo</item>
-        <item name="android:clickable">true</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">fill_parent</item>
-    </style>
-    <style name="TitleBarSpring">
-        <item name="android:layout_width">0.0dip</item>
-        <item name="android:layout_height">fill_parent</item>
-        <item name="android:layout_weight">1.0</item>
-    </style>
-    <style name="TitleBarText">
-        <item name="android:textSize">@dimen/text_size_medium</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/title_text</item>
-        <item name="android:ellipsize">end</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:id">@id/title_text</item>
-        <item name="android:paddingLeft">12.0dip</item>
-        <item name="android:paddingRight">12.0dip</item>
-        <item name="android:layout_width">0.0dip</item>
-        <item name="android:layout_height">fill_parent</item>
-        <item name="android:singleLine">true</item>
-        <item name="android:layout_weight">1.0</item>
-    </style>
-    <style name="TextBody">
-        <item name="android:textSize">15.0sp</item>
-        <item name="android:textColor">@android:color/secondary_text_light</item>
-        <item name="android:lineSpacingMultiplier">1.1</item>
-    </style>
+
 </resources>

@@ -1,4 +1,9 @@
+18/07/13
+*Updated opensource app to bring in line with v2 of the play store version.. OH and brough alone all the donation features for you lovely open source lovers ;)
+
 08/01/13
 *Changed bootscript and app to find the scripts in the right location when using opensource app
+
 04/11/12
 *First release of open source version, featuring all features of play store app version 1.2.1
+

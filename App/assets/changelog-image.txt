@@ -1,3 +1,11 @@
+30/03/2013
+Kali Linux
+*New beta image for Kali linux
+
+23/03/2013
+Fedora
+*New beta images for fedora
+
 11/10/2012
 Backtrack
 *Fixed user not being able to use sudo
